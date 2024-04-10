@@ -371,11 +371,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
+  score_Stars: e8030000d0070000b80b0000
   musica:
     name: Sem Nome
     number: 0
     stars_music: 0
-    stars_user: 0
     metronomo: 1
     notes:
     - note: 1

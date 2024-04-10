@@ -22,11 +22,45 @@ public class MusicasManager : MonoBehaviour
 
     void Start()
     {
+
+        music_list[0].stars_music = MenuManager.musica_01;
+        music_list[1].stars_music = MenuManager.musica_02;
+        music_list[2].stars_music = MenuManager.musica_03;
+        music_list[3].stars_music = MenuManager.musica_04;
+        music_list[4].stars_music = MenuManager.musica_05;
+
         Opcao_01.music = music_list[0];
         Opcao_02.music = music_list[1];
         Opcao_03.music = music_list[2];
         Opcao_04.music = music_list[3];
         Opcao_05.music = music_list[4];
+
+        for(int i = 0; i < music_list.Count; i++)
+        {
+            try
+            {
+                if (music_list[i].tarefa)
+                {
+                    music_list[i].stars_music = MenuManager.Stars_Get(i + 1, true);
+                }
+                else
+                {
+                    music_list[i].stars_music = MenuManager.Stars_Get(i + 1, false);
+                }
+                
+                if(music_list[i].stars_required <= MenuManager.Stars_All())
+                {
+                    music_list[i].bloqueada = false;
+                }
+            }
+            catch (StarsException)
+            {
+                music_list[i].stars_music = 0;
+                music_list[i].bloqueada = true;
+                UnityEngine.Debug.Log("Execption in music/task: Music/Task " + music_list[i].number);
+                UnityEngine.Debug.Log("list number " + i);
+            }
+        }
     }
 
     void Update()
@@ -42,21 +76,21 @@ public class MusicasManager : MonoBehaviour
     }
     public void Up()
     {
-        if (Opcao_01.music.number - 1 >= 0)
+        if (Opcao_01.music.number - 2 >= 0)
         {
             Opcao_05.music = Opcao_04.music; Opcao_04.music = Opcao_03.music; Opcao_03.music = Opcao_02.music; Opcao_02.music = Opcao_01.music;
 
-            Opcao_01.music = music_list[Opcao_01.music.number - 1];
+            Opcao_01.music = music_list[Opcao_01.music.number-2];
         }
     }
 
     public void Down()
     {
-        if(Opcao_05.music.number+1 <= music_list.Count-1)
+        if(Opcao_05.music.number <= music_list.Count-1)
         {
             Opcao_01.music = Opcao_02.music; Opcao_02.music = Opcao_03.music; Opcao_03.music = Opcao_04.music; Opcao_04.music = Opcao_05.music;
 
-            Opcao_05.music = music_list[Opcao_05.music.number + 1];
+            Opcao_05.music = music_list[Opcao_05.music.number];
         }
     }
 
@@ -106,8 +140,9 @@ public class Musica
     public string name = "Sem Nome";
     public int number = 0;
     public int stars_music = 0;
-    public float metronomo = 1;
+    public float stars_required = 0;
     public List<Note> notes = new List<Note>();
+    public bool tarefa = false;
     public bool bloqueada = true;
 }
 

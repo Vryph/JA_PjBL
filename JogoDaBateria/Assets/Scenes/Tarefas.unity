@@ -561,6 +561,86 @@ PrefabInstance:
       propertyPath: music_list.Array.data[9].name
       value: Decima Tarefa
       objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[0].tarefa
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[1].tarefa
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[2].tarefa
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[3].tarefa
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[4].tarefa
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[5].tarefa
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[6].tarefa
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[7].tarefa
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[8].tarefa
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[9].tarefa
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[0].stars_required
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[1].stars_required
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[2].stars_required
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[3].stars_required
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[4].stars_required
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[5].stars_required
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[6].stars_required
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[7].stars_required
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[8].stars_required
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[9].stars_required
+      value: 27
+      objectReference: {fileID: 0}
     - target: {fileID: 4419724872461580831, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

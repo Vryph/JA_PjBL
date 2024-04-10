@@ -6,6 +6,7 @@ using UnityEngine;
 public class Game_System : MonoBehaviour
 {
     [SerializeField] private int score = 0;
+    [SerializeField] private int[] score_Stars = new int[3];
     [SerializeField] private Musica musica = null;
     [SerializeField] private Note note_in = null;
 
@@ -16,7 +17,17 @@ public class Game_System : MonoBehaviour
 
     void Update()
     {
-        
+        for(int i = 0;  i < score_Stars.Length; i++)
+        {
+            if(score_Stars[i] <= score)
+            {
+                if(musica.stars_music < i++)
+                {
+                    musica.stars_music++;
+                    MenuManager.Stars_Set(musica, i++);
+                }
+            }
+        }
     }
 }
 
