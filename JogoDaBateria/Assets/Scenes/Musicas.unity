@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &75655008 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8175129143836848928, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-  m_PrefabInstance: {fileID: 4419724871606280793}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &117998773
 GameObject:
   m_ObjectHideFlags: 0
@@ -304,27 +293,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &445743536 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1995139074623284654, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-  m_PrefabInstance: {fileID: 4419724871606280793}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &710296104 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8175129144258357532, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-  m_PrefabInstance: {fileID: 4419724871606280793}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1107308863 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1995139072817264488, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-  m_PrefabInstance: {fileID: 4419724871606280793}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1169722785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -427,54 +395,6 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 1839846350412633354, guid: f58f2114f83eff54792169f22922d2ae, type: 3}
   m_PrefabInstance: {fileID: 1169722785}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1204299576 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1995139074738683794, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-  m_PrefabInstance: {fileID: 4419724871606280793}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1235061974 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1995139074410248466, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-  m_PrefabInstance: {fileID: 4419724871606280793}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1480963893 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6490561592821285120, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-  m_PrefabInstance: {fileID: 4419724871606280793}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1580378670 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3517548456215465394, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-  m_PrefabInstance: {fileID: 4419724871606280793}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1603734167 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8175129144580060576, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-  m_PrefabInstance: {fileID: 4419724871606280793}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1682917462 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8175129145674316762, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-  m_PrefabInstance: {fileID: 4419724871606280793}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1807717597
 GameObject:
   m_ObjectHideFlags: 0
@@ -576,45 +496,9 @@ PrefabInstance:
       value: Menu_Musicas
       objectReference: {fileID: 0}
     - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-      propertyPath: Opcao_01.text
-      value: 
-      objectReference: {fileID: 1580378670}
-    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-      propertyPath: Opcao_02.text
-      value: 
-      objectReference: {fileID: 1603734167}
-    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-      propertyPath: Opcao_03.text
-      value: 
-      objectReference: {fileID: 75655008}
-    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-      propertyPath: Opcao_04.text
-      value: 
-      objectReference: {fileID: 710296104}
-    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-      propertyPath: Opcao_05.text
-      value: 
-      objectReference: {fileID: 1682917462}
-    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-      propertyPath: Opcao_01.button
-      value: 
-      objectReference: {fileID: 1480963893}
-    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-      propertyPath: Opcao_02.button
-      value: 
-      objectReference: {fileID: 1235061974}
-    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-      propertyPath: Opcao_03.button
-      value: 
-      objectReference: {fileID: 1204299576}
-    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-      propertyPath: Opcao_04.button
-      value: 
-      objectReference: {fileID: 445743536}
-    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
-      propertyPath: Opcao_05.button
-      value: 
-      objectReference: {fileID: 1107308863}
+      propertyPath: Opcao_01.music.bloqueada
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4419724872461580831, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

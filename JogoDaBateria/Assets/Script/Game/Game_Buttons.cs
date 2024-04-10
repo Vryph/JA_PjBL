@@ -1,24 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Game_Buttons : MonoBehaviour
 {
-    
+    [SerializeField] private Note.music_note note;
     void Start()
     {
-        
+
     }
 
-    
+
     void Update()
     {
-        
+
     }
 
-    public void OnMouseDown(Note.music_note note)
+    public void OnMouseDown()
     {
-        Sinal.Note_Sinal = Note.music_note.Empty;
+        Debug.Log("Signal Bateria = "+note.HumanName());
+        Sinal.Note_Sinal = note;
+
     }
 }
 

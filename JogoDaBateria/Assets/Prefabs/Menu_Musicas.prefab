@@ -539,104 +539,129 @@ MonoBehaviour:
   music_list:
   - name: Primeira Musica
     number: 0
-    stars: 0
+    stars_music: 0
+    stars_user: 0
     metronomo: 1
-    notes: 
+    notes: []
     bloqueada: 0
   - name: Segunda Musica
     number: 1
-    stars: 0
+    stars_music: 0
+    stars_user: 0
     metronomo: 1
-    notes: 
+    notes: []
     bloqueada: 1
   - name: Terceira Musica
     number: 2
-    stars: 0
+    stars_music: 0
+    stars_user: 0
     metronomo: 0
-    notes: 
+    notes: []
     bloqueada: 1
   - name: Quarta Musica
     number: 3
-    stars: 0
+    stars_music: 0
+    stars_user: 0
     metronomo: 1
-    notes: 
+    notes: []
     bloqueada: 1
   - name: Quinta Musica
     number: 4
-    stars: 0
+    stars_music: 0
+    stars_user: 0
     metronomo: 1
-    notes: 
+    notes: []
     bloqueada: 1
   - name: Sexta Musica
     number: 5
-    stars: 0
+    stars_music: 0
+    stars_user: 0
     metronomo: 1
-    notes: 
+    notes: []
     bloqueada: 1
   - name: Setima Musica
     number: 6
-    stars: 0
+    stars_music: 0
+    stars_user: 0
     metronomo: 1
-    notes: 
+    notes: []
     bloqueada: 1
   - name: Oitava Musica
     number: 7
-    stars: 0
+    stars_music: 0
+    stars_user: 0
     metronomo: 1
-    notes: 
+    notes: []
     bloqueada: 1
   - name: Nona Musica
     number: 8
-    stars: 0
+    stars_music: 0
+    stars_user: 0
     metronomo: 1
-    notes: 
+    notes: []
     bloqueada: 1
   - name: Decima Musica
     number: 9
-    stars: 0
+    stars_music: 0
+    stars_user: 0
     metronomo: 1
-    notes: 
+    notes: []
     bloqueada: 1
   Opcao_01:
-    name: 
-    number: 0
-    stars: 0
-    metronomo: 0
-    notes: 
-    bloqueada: 1
-  Opcao_01_text: {fileID: 3517548456215465394}
+    music:
+      name: Sem Nome
+      number: 0
+      stars_music: 0
+      stars_user: 0
+      metronomo: 1
+      notes: []
+      bloqueada: 1
+    button: {fileID: 6490561592821285120}
+    text: {fileID: 3517548456215465394}
   Opcao_02:
-    name: 
-    number: 0
-    stars: 0
-    metronomo: 0
-    notes: 
-    bloqueada: 1
-  Opcao_02_text: {fileID: 8175129144580060576}
+    music:
+      name: Sem Nome
+      number: 0
+      stars_music: 0
+      stars_user: 0
+      metronomo: 1
+      notes: []
+      bloqueada: 1
+    button: {fileID: 1995139074410248466}
+    text: {fileID: 8175129144580060576}
   Opcao_03:
-    name: 
-    number: 0
-    stars: 0
-    metronomo: 0
-    notes: 
-    bloqueada: 1
-  Opcao_03_text: {fileID: 8175129143836848928}
+    music:
+      name: Sem Nome
+      number: 0
+      stars_music: 0
+      stars_user: 0
+      metronomo: 1
+      notes: []
+      bloqueada: 1
+    button: {fileID: 1995139074738683794}
+    text: {fileID: 8175129143836848928}
   Opcao_04:
-    name: 
-    number: 0
-    stars: 0
-    metronomo: 0
-    notes: 
-    bloqueada: 1
-  Opcao_04_text: {fileID: 8175129144258357532}
+    music:
+      name: Sem Nome
+      number: 0
+      stars_music: 0
+      stars_user: 0
+      metronomo: 1
+      notes: []
+      bloqueada: 1
+    button: {fileID: 1995139074623284654}
+    text: {fileID: 8175129144258357532}
   Opcao_05:
-    name: 
-    number: 0
-    stars: 0
-    metronomo: 0
-    notes: 
-    bloqueada: 1
-  Opcao_05_text: {fileID: 8175129145674316762}
+    music:
+      name: Sem Nome
+      number: 0
+      stars_music: 0
+      stars_user: 0
+      metronomo: 1
+      notes: []
+      bloqueada: 1
+    button: {fileID: 1995139072817264488}
+    text: {fileID: 8175129145674316762}
 --- !u!1 &4419724872637526740
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,6 +808,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Opcao_04
       objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4419724872461580830}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Choose_Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MusicasManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 8613877578185536059, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -869,6 +918,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+--- !u!1 &1995139074623284654 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2802976404619950091, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+  m_PrefabInstance: {fileID: 4419724871106321829}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &5394362780901126046 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8613877578185536059, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
@@ -895,6 +949,30 @@ PrefabInstance:
     - target: {fileID: 2802976404619950091, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
       propertyPath: m_Name
       value: Opcao_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4419724872461580830}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Choose_Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MusicasManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8613877578185536059, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
       propertyPath: m_Pivot.x
@@ -982,6 +1060,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+--- !u!1 &1995139074738683794 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2802976404619950091, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+  m_PrefabInstance: {fileID: 4419724871527860121}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &5394362781385618850 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8613877578185536059, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
@@ -1008,6 +1091,30 @@ PrefabInstance:
     - target: {fileID: 2802976404619950091, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
       propertyPath: m_Name
       value: Opcao_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4419724872461580830}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Choose_Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MusicasManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8613877578185536059, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
       propertyPath: m_Pivot.x
@@ -1095,6 +1202,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+--- !u!1 &1995139074410248466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2802976404619950091, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+  m_PrefabInstance: {fileID: 4419724871866843417}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &5394362780661216034 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8613877578185536059, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
@@ -1121,6 +1233,30 @@ PrefabInstance:
     - target: {fileID: 2802976404619950091, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
       propertyPath: m_Name
       value: Opcao_05
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4419724872461580830}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Choose_Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MusicasManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8613877578185536059, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
       propertyPath: m_Pivot.x
@@ -1208,6 +1344,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+--- !u!1 &1995139072817264488 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2802976404619950091, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+  m_PrefabInstance: {fileID: 4419724872929382243}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &5394362779498544472 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8613877578185536059, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
@@ -1234,6 +1375,26 @@ PrefabInstance:
     - target: {fileID: 2802976404619950091, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
       propertyPath: m_Name
       value: Opcao_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 4419724872461580830}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Choose_Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MusicasManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5562825804765656615, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8613877578185536059, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
       propertyPath: m_Pivot.x
@@ -1337,3 +1498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &6490561592821285120 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2802976404619950091, guid: aa32c1d32c8ddce4c8d4ec8041b1b731, type: 3}
+  m_PrefabInstance: {fileID: 9004163852031785227}
+  m_PrefabAsset: {fileID: 0}

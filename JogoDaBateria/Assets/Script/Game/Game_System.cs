@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class Game_System : MonoBehaviour
 {
-
+    [SerializeField] private int score = 0;
     [SerializeField] private Musica musica = null;
+    [SerializeField] private Note note_in = null;
+
     void Start()
     {
         musica = Game_Music.Get_Musica();

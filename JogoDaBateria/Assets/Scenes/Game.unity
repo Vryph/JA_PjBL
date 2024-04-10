@@ -370,14 +370,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447db32060d5dc7408afe7498da0edaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: 0
   musica:
     name: Sem Nome
     number: 0
     stars_music: 0
     stars_user: 0
     metronomo: 1
-    notes: []
-    bloqueada: 1
+    notes:
+    - note: 1
+      beat: 0
+      active: 0
+    bloqueada: 0
+  note_in:
+    note: 0
+    beat: 1
+    active: 1
 --- !u!224 &743194817
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1050,14 +1058,6 @@ PrefabInstance:
     - target: {fileID: 767536676683743639, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
       propertyPath: m_Name
       value: Bateria
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900006962800503752, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 7.92
-      objectReference: {fileID: 0}
-    - target: {fileID: 4900006962800503752, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.65
       objectReference: {fileID: 0}
     - target: {fileID: 7334041142571376275, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
       propertyPath: m_RootOrder

@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MusicasManager : MonoBehaviour
 {
@@ -60,17 +62,33 @@ public class MusicasManager : MonoBehaviour
 
     public void Choose_Music(int button)
     {
+        UnityEngine.Debug.Log("Button Press:" + button + ".");
+
         switch(button)
         {
             case 0:
-                break;
+                UnityEngine.Debug.Log("Opção 0 open"); Game(Opcao_01.music); break;
             case 1:
-                break;
+                UnityEngine.Debug.Log("Opção 1 open");  Game(Opcao_02.music); break;
             case 2:
-                break;
+                UnityEngine.Debug.Log("Opção 2 open");  Game(Opcao_03.music); break;
             case 3:
-                break;
+                UnityEngine.Debug.Log("Opção 3 open");  Game(Opcao_04.music); break;
+            case 4:
+                UnityEngine.Debug.Log("Opção 4 open"); Game(Opcao_05.music); break;
         }
+    }
+
+    public void Game(Musica music)
+    {
+        if(music.bloqueada==false)
+        {
+            UnityEngine.Debug.Log("Entrando no Jogo");
+            Game_Music.Set_Musica(music);
+            MenuManager._MenuAtual = "Game";
+            SceneManager.LoadScene("Game");
+        }
+        else { UnityEngine.Debug.Log("Você não liberou esta lição."); }
     }
 
     [System.Serializable]
@@ -88,7 +106,6 @@ public class Musica
     public string name = "Sem Nome";
     public int number = 0;
     public int stars_music = 0;
-    public int stars_user = 0;
     public float metronomo = 1;
     public List<Note> notes = new List<Note>();
     public bool bloqueada = true;
