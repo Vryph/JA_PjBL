@@ -19,14 +19,8 @@ public class Game_Buttons : MonoBehaviour
 
     public void OnMouseDown()
     {
-        Debug.Log("Signal Bateria = "+note.HumanName());
+        Debug.Log("Signal Bateria = " + note.HumanName());
         Sinal.Note_Sinal = note;
 
     }
-}
-
-public static class Sinal
-{
-    public static Note.music_note Note_Sinal;
-
 }

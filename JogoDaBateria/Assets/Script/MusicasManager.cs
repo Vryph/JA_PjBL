@@ -147,6 +147,38 @@ public class Musica
 }
 
 [System.Serializable]
+public class Time
+{
+    public Note[] notes;
+    public float time = 0;
+    public bool complet = false;
+    public bool fail = false;
+
+    public void Check()
+    {
+
+        if (fail)
+        { 
+            complet = true;
+        }
+        else
+        {
+            int check = notes.Length;
+            int value = 0;
+
+            for (int i = 0; i < notes.Length; i++)
+            {
+                if (notes[i].active == false) { time++; }
+            }
+
+            if (value == check) { complet = true; }
+
+            Sinal.Score_Sinal = true;
+        }
+    }
+}
+
+[System.Serializable]
 public class Note
 {
     public music_note note = music_note.Empty;

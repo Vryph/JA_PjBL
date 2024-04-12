@@ -87,7 +87,19 @@ public class MenuManager : MonoBehaviour
 
         if(musica.tarefa == true)
         {
-
+            switch (musica.number)
+            {
+                case 1:
+                    tarefa_01 = value; break;
+                case 2:
+                    tarefa_02 = value; break;
+                case 3:
+                    tarefa_03 = value; break;
+                case 4:
+                    tarefa_04 = value; break;
+                case 5:
+                    tarefa_05 = value; break;
+            }
         }
         else
         {
@@ -172,7 +184,7 @@ public class StarsException : Exception
 {
     public StarsException()
     {
-        Console.WriteLine("StarsException: Ocorreu algum erro envolvendo as estrelas do jogo.");
+        Console.WriteLine("StarsException: Algum erro envolvendo as estrelas do jogo não foi tratado.");
     }
 
     public StarsException(string msg) : base(msg)

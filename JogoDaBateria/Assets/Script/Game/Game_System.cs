@@ -37,3 +37,9 @@ public static class Game_Music
     public static void Set_Musica(Musica musica) { Game_Music.musica = musica; }
     public static Musica Get_Musica() {  return musica; }
 }
+
+public static class Sinal
+{
+    public static Note.music_note Note_Sinal;
+    public static bool Score_Sinal = false;
+}
