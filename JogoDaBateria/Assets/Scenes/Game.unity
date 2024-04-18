@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &393181240 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1489185952137415570, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+  m_PrefabInstance: {fileID: 4900006963795567786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +212,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &621952842 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 466015915447519293, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+  m_PrefabInstance: {fileID: 4900006963795567786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &663887421
 GameObject:
   m_ObjectHideFlags: 0
@@ -370,23 +380,87 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 447db32060d5dc7408afe7498da0edaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deBug: 1
   score: 0
-  score_Stars: e8030000d0070000b80b0000
-  musica:
-    name: Sem Nome
-    number: 0
-    stars_music: 0
-    stars_required: 0
-    notes:
-    - note: 5
-      beat: 0
-      active: 0
-    tarefa: 0
-    bloqueada: 0
-  note_in:
-    note: 0
-    beat: 1
-    active: 1
+  time_in:
+    notes: []
+    time: 0
+    spawned: 0
+    complet: 0
+    fail: 0
+  configuration:
+    game_Time: 0
+    score_Stars: 64000000c80000002c010000
+    spawn_time: 0
+    spawns:
+    - {fileID: 1013049473}
+    - {fileID: 1921889934}
+    - {fileID: 621952842}
+    - {fileID: 393181240}
+    - {fileID: 786905446}
+    - {fileID: 1484454346}
+    - {fileID: 1796380831}
+    musica:
+      name: Sem Nome
+      number: 0
+      stars_music: 0
+      stars_required: 0
+      times:
+      - notes:
+        - note: 1
+          beat: 0
+          active: 0
+        - note: 2
+          beat: 0
+          active: 0
+        - note: 3
+          beat: 0
+          active: 0
+        - note: 6
+          beat: 0
+          active: 0
+        - note: 4
+          beat: 0
+          active: 0
+        - note: 5
+          beat: 0
+          active: 0
+        - note: 7
+          beat: 0
+          active: 0
+        time: 0
+        spawned: 0
+        complet: 0
+        fail: 0
+      - notes:
+        - note: 1
+          beat: 0
+          active: 0
+        - note: 2
+          beat: 0
+          active: 0
+        - note: 3
+          beat: 0
+          active: 0
+        - note: 6
+          beat: 0
+          active: 0
+        - note: 4
+          beat: 0
+          active: 0
+        - note: 5
+          beat: 0
+          active: 0
+        - note: 7
+          beat: 0
+          active: 0
+        time: 5
+        spawned: 0
+        complet: 0
+        fail: 0
+      tarefa: 0
+      bloqueada: 0
+    note_object: {fileID: 3410832944318796232, guid: ff7fdf1bd99030d45b57946a5cb44ad2, type: 3}
 --- !u!224 &743194817
 RectTransform:
   m_ObjectHideFlags: 0
@@ -407,6 +481,11 @@ RectTransform:
   m_AnchoredPosition: {x: 273, y: 136}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &786905446 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8947111008453006411, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+  m_PrefabInstance: {fileID: 4900006963795567786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &792639571
 GameObject:
   m_ObjectHideFlags: 0
@@ -542,6 +621,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 792639571}
   m_CullTransparentMesh: 1
+--- !u!1 &1013049473 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4900006964187292354, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+  m_PrefabInstance: {fileID: 4900006963795567786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1163936513
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,6 +840,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1484454346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 272013657305287881, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+  m_PrefabInstance: {fileID: 4900006963795567786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1654912408
 GameObject:
   m_ObjectHideFlags: 0
@@ -871,6 +960,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MenuInicial: {fileID: 8150180960139247428}
+--- !u!1 &1796380831 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2610230358733611618, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+  m_PrefabInstance: {fileID: 4900006963795567786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1921889934 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5822741800375344233, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+  m_PrefabInstance: {fileID: 4900006963795567786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2132234970
 GameObject:
   m_ObjectHideFlags: 0
@@ -1056,9 +1155,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 466015915447519293, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_Name
+      value: Tom_01
+      objectReference: {fileID: 0}
     - target: {fileID: 767536676683743639, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
       propertyPath: m_Name
       value: Bateria
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489185952137415570, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_Name
+      value: Bumbo
       objectReference: {fileID: 0}
     - target: {fileID: 7334041142571376275, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
       propertyPath: m_RootOrder
@@ -1103,6 +1210,10 @@ PrefabInstance:
     - target: {fileID: 7334041142571376275, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947111008453006411, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_Name
+      value: Tom_02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}

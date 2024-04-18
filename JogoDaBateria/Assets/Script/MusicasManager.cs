@@ -141,16 +141,17 @@ public class Musica
     public int number = 0;
     public int stars_music = 0;
     public float stars_required = 0;
-    public List<Note> notes = new List<Note>();
+    public List<Times> times = new List<Times>();
     public bool tarefa = false;
     public bool bloqueada = true;
 }
 
 [System.Serializable]
-public class Time
+public class Times
 {
-    public Note[] notes;
+    public Note[] notes = new Note[7];
     public float time = 0;
+    public bool spawned = false;
     public bool complet = false;
     public bool fail = false;
 
@@ -187,7 +188,7 @@ public class Note
 
     public enum music_note
     {
-        Empty,Chimbal,Caixa,Tom_1,Tom_2,Surdo,Bumbo,Prato
+        Empty,Chimbal,Caixa, TomUm, TomDois, Surdo,Bumbo,Prato
     }
     public enum music_beat
     {

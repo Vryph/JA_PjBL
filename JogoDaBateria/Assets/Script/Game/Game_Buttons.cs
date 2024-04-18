@@ -6,6 +6,7 @@ using UnityEngine;
 public class Game_Buttons : MonoBehaviour
 {
     [SerializeField] private Note.music_note note;
+    [SerializeField] private GameObject spawn; public GameObject getSpawn() { return spawn; }
     void Start()
     {
 
