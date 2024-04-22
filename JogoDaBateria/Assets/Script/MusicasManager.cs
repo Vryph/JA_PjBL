@@ -154,6 +154,7 @@ public class Times
     public bool spawned = false;
     public bool complet = false;
     public bool fail = false;
+    public int position_In_Music = 0;
 
     public void Check()
     {

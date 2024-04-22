@@ -382,16 +382,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deBug: 1
   score: 0
+  combo: 0
   time_in:
     notes: []
     time: 0
     spawned: 0
     complet: 0
     fail: 0
+    position_In_Music: 0
   configuration:
     game_Time: 0
+    margem: 2
+    spawn_time: 2
+    get_Points: 0
     score_Stars: 64000000c80000002c010000
-    spawn_time: 0
     spawns:
     - {fileID: 1013049473}
     - {fileID: 1921889934}
@@ -407,31 +411,14 @@ MonoBehaviour:
       stars_required: 0
       times:
       - notes:
-        - note: 1
-          beat: 0
-          active: 0
-        - note: 2
-          beat: 0
-          active: 0
-        - note: 3
-          beat: 0
-          active: 0
-        - note: 6
-          beat: 0
-          active: 0
-        - note: 4
-          beat: 0
-          active: 0
-        - note: 5
-          beat: 0
-          active: 0
         - note: 7
           beat: 0
           active: 0
-        time: 0
+        time: 1
         spawned: 0
         complet: 0
         fail: 0
+        position_In_Music: 0
       - notes:
         - note: 1
           beat: 0
@@ -439,25 +426,50 @@ MonoBehaviour:
         - note: 2
           beat: 0
           active: 0
+        time: 2
+        spawned: 0
+        complet: 0
+        fail: 0
+        position_In_Music: 1
+      - notes:
+        - note: 1
+          beat: 0
+          active: 0
         - note: 3
           beat: 0
           active: 0
-        - note: 6
+        time: 4
+        spawned: 0
+        complet: 0
+        fail: 0
+        position_In_Music: 2
+      - notes:
+        - note: 3
           beat: 0
           active: 0
-        - note: 4
-          beat: 0
-          active: 0
-        - note: 5
-          beat: 0
-          active: 0
-        - note: 7
+        - note: 3
           beat: 0
           active: 0
         time: 5
         spawned: 0
         complet: 0
         fail: 0
+        position_In_Music: 3
+      - notes:
+        - note: 2
+          beat: 0
+          active: 0
+        - note: 4
+          beat: 0
+          active: 0
+        - note: 6
+          beat: 0
+          active: 0
+        time: 5.5
+        spawned: 0
+        complet: 0
+        fail: 0
+        position_In_Music: 4
       tarefa: 0
       bloqueada: 0
     note_object: {fileID: 3410832944318796232, guid: ff7fdf1bd99030d45b57946a5cb44ad2, type: 3}
