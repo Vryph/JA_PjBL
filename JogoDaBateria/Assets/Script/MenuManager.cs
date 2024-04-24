@@ -28,6 +28,12 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private int MusicProgress = 0 ;
     [SerializeField] private int TarefasProgress = 0;
 
+    // Animadores do Post It
+
+    [SerializeField] private Animator jogoLivre;
+    [SerializeField] private Animator musicas;
+    [SerializeField] private Animator tarefas;
+
     public void Update()
     {
 
@@ -44,43 +50,47 @@ public class MenuManager : MonoBehaviour
 
     #region  # Menu Transition #
 
-    public void JogoLivre()
+    public void ChangeMenu(String nestMenu)
     {
-
-        if (MenuManager._MenuAtual != "JogoLivre")
+        if (MenuManager._MenuAtual != nestMenu)
         {
-            if (DeBug) { Debug.Log("Jogo Livre"); }
+            if (DeBug) { Debug.Log(nestMenu); }
 
-            MenuManager._MenuAtual = "JogoLivre";
-            SceneManager.LoadScene("JogoLivre");
+            MenuManager._MenuAtual = nestMenu;
+            SceneManager.LoadScene(nestMenu);
         }
+
     }
-    public void Musicas()
+    public void ChangeMenuButton(String newMenu)
     {
-
-        if (MenuManager._MenuAtual != "Musicas")
+        switch (newMenu)
         {
-            if (DeBug) { Debug.Log("Musicas"); }
+            case "JogoLivre":
+                if (!jogoLivre.GetAnimatorTransitionInfo(0).IsName("Clicou"))
+                {
+                    jogoLivre.SetTrigger("Clicou");
+                }
+                break;
 
-            MenuManager._MenuAtual = "Musicas";
-            SceneManager.LoadScene("Musicas");
-        }
-        
-    }
-    public void Tarefas()
-    {
+            case "Musicas":
+                if (!musicas.GetAnimatorTransitionInfo(0).IsName("Clicou"))
+                {
+                    musicas.SetTrigger("Clicou");
+                }
+                break;
 
-        if(MenuManager._MenuAtual != "Tarefas")
-        {
-            if (DeBug) { Debug.Log("Tarefas"); }
-
-            MenuManager._MenuAtual = "Tarefas";
-            SceneManager.LoadScene("Tarefas");
+            case "Tarefas":
+                if (!tarefas.GetAnimatorTransitionInfo(0).IsName("Clicou"))
+                {
+                    tarefas.SetTrigger("Clicou");
+                }
+                break;
         }
     }
 
     #endregion
 
+    #region # Stars Manager #
 
     public static void Stars_Set(Musica musica, int value)
     {
@@ -157,7 +167,6 @@ public class MenuManager : MonoBehaviour
         throw new StarsException("StarsException: A musica/tarefa solicitada não existe." +
                                  " Numero buscado: "+number+".");
     }
-
     public static int Stars_All()
     {
         int return_value = 0;
@@ -178,6 +187,8 @@ public class MenuManager : MonoBehaviour
         UnityEngine.Debug.Log("Valor de retorno: "+return_value);
         return return_value;
     }
+
+    #endregion
 }
 
 public class StarsException : Exception

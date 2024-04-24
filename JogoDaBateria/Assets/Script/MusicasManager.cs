@@ -37,6 +37,8 @@ public class MusicasManager : MonoBehaviour
 
         for(int i = 0; i < music_list.Count; i++)
         {
+            music_list[i].number = i;
+            UnityEngine.Debug.Log(i);
             try
             {
                 if (music_list[i].tarefa)
@@ -65,32 +67,38 @@ public class MusicasManager : MonoBehaviour
 
     void Update()
     {
-        if(Opcao_01.text.text != Opcao_01.music.name)
+        if (Opcao_01.image.sprite != Opcao_01.music.sprite)
         {
-            Opcao_01.text.text = Opcao_01.music.name;
-            Opcao_02.text.text = Opcao_02.music.name;
-            Opcao_03.text.text = Opcao_03.music.name;
-            Opcao_04.text.text = Opcao_04.music.name;
-            Opcao_05.text.text = Opcao_05.music.name;
+            Opcao_01.image.sprite = Opcao_01.music.sprite;
+            Opcao_02.image.sprite = Opcao_02.music.sprite;
+            Opcao_03.image.sprite = Opcao_03.music.sprite;
+            Opcao_04.image.sprite = Opcao_04.music.sprite;
+            Opcao_05.image.sprite = Opcao_05.music.sprite;
         }
     }
     public void Up()
     {
-        if (Opcao_01.music.number - 2 >= 0)
+        if (Opcao_01.music.number - 1 >= 0)
         {
-            Opcao_05.music = Opcao_04.music; Opcao_04.music = Opcao_03.music; Opcao_03.music = Opcao_02.music; Opcao_02.music = Opcao_01.music;
+            Opcao_05.music = Opcao_04.music;
+            Opcao_04.music = Opcao_03.music;
+            Opcao_03.music = Opcao_02.music;
+            Opcao_02.music = Opcao_01.music;
 
-            Opcao_01.music = music_list[Opcao_01.music.number-2];
+            Opcao_01.music = music_list[Opcao_01.music.number - 1];
         }
     }
 
     public void Down()
     {
-        if(Opcao_05.music.number <= music_list.Count-1)
+        if (Opcao_05.music.number < music_list.Count - 1)
         {
-            Opcao_01.music = Opcao_02.music; Opcao_02.music = Opcao_03.music; Opcao_03.music = Opcao_04.music; Opcao_04.music = Opcao_05.music;
+            Opcao_01.music = Opcao_02.music;
+            Opcao_02.music = Opcao_03.music;
+            Opcao_03.music = Opcao_04.music;
+            Opcao_04.music = Opcao_05.music;
 
-            Opcao_05.music = music_list[Opcao_05.music.number];
+            Opcao_05.music = music_list[Opcao_05.music.number + 1];
         }
     }
 
@@ -130,7 +138,7 @@ public class MusicasManager : MonoBehaviour
     {
         public Musica music;
         public GameObject button;
-        public TextMeshProUGUI text;
+        public UnityEngine.UI.Image image;
     }
 }
 
@@ -138,6 +146,7 @@ public class MusicasManager : MonoBehaviour
 public class Musica
 {
     public string name = "Sem Nome";
+    public Sprite sprite;
     public int number = 0;
     public int stars_music = 0;
     public float stars_required = 0;
@@ -160,7 +169,7 @@ public class Times
     {
 
         if (fail)
-        { 
+        {
             complet = true;
         }
         else

@@ -13,9 +13,11 @@ public class Game_Buttons : MonoBehaviour
     [SerializeField] private AudioClip[] note_sound;
     [SerializeField] private KeyCode key;
     private AudioSource audio_source;
+    private Animator animator;
     [SerializeField] private GameObject spawn; public GameObject getSpawn() { return spawn; }
     void Start()
     {
+        animator = GetComponent<Animator>();
         audio_source = GetComponent<AudioSource>();
     }
     void Update()
@@ -24,6 +26,7 @@ public class Game_Buttons : MonoBehaviour
         {
             Debug.Log("Signal Bateria = " + note.HumanName());
             audio_source.PlayOneShot(note_sound[0]);
+            animator.SetTrigger("Clicou");
 
             switch (note)
             {
@@ -49,6 +52,7 @@ public class Game_Buttons : MonoBehaviour
     {
         Debug.Log("Signal Bateria = " + note.HumanName());
         audio_source.PlayOneShot(note_sound[0]);
+        animator.SetTrigger("Clicou");
 
         switch (note)
         {
