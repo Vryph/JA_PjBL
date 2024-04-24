@@ -28,6 +28,12 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private int MusicProgress = 0 ;
     [SerializeField] private int TarefasProgress = 0;
 
+    // Animadores do Post It
+
+    [SerializeField] private Animator jogoLivre;
+    [SerializeField] private Animator musicas;
+    [SerializeField] private Animator tarefas;
+
     public void Update()
     {
 
@@ -46,6 +52,7 @@ public class MenuManager : MonoBehaviour
 
     public void JogoLivre()
     {
+        jogoLivre.SetTrigger("Clicou");
 
         if (MenuManager._MenuAtual != "JogoLivre")
         {
@@ -57,6 +64,7 @@ public class MenuManager : MonoBehaviour
     }
     public void Musicas()
     {
+        musicas.SetTrigger("Clicou");
 
         if (MenuManager._MenuAtual != "Musicas")
         {
@@ -69,8 +77,9 @@ public class MenuManager : MonoBehaviour
     }
     public void Tarefas()
     {
+        tarefas.SetTrigger("Clicou");
 
-        if(MenuManager._MenuAtual != "Tarefas")
+        if (MenuManager._MenuAtual != "Tarefas")
         {
             if (DeBug) { Debug.Log("Tarefas"); }
 

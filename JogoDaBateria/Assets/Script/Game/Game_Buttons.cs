@@ -11,8 +11,10 @@ public class Game_Buttons : MonoBehaviour
     [SerializeField] private Note.music_note note;
     [SerializeField] private KeyCode key;
     [SerializeField] private GameObject spawn; public GameObject getSpawn() { return spawn; }
+    [SerializeField] private Animator animator;
     void Start()
     {
+        animator = GetComponent<Animator>();
     }
     void Update()
     {
@@ -38,6 +40,7 @@ public class Game_Buttons : MonoBehaviour
                     Sinal.Prato = true; break;
             }
         }
+        animator.SetTrigger("Clicou");
     }
 
     public void OnMouseDown()
