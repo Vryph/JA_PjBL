@@ -187,10 +187,13 @@ public class Note
     public music_beat beat = music_beat.Average;
     public bool active = true;
 
+ 
+
     public enum music_note
     {
         Empty,Chimbal,Caixa, TomUm, TomDois, Surdo,Bumbo,Prato
     }
+
     public enum music_beat
     {
         Weak,Average,Strong
