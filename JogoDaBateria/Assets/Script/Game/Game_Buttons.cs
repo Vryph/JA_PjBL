@@ -6,19 +6,24 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
 public class Game_Buttons : MonoBehaviour
 {
     [SerializeField] private Note.music_note note;
+    [SerializeField] private AudioClip[] note_sound;
     [SerializeField] private KeyCode key;
+    private AudioSource audio_source;
     [SerializeField] private GameObject spawn; public GameObject getSpawn() { return spawn; }
     void Start()
     {
+        audio_source = GetComponent<AudioSource>();
     }
     void Update()
     {
         if(Input.GetKeyDown(key))
         {
             Debug.Log("Signal Bateria = " + note.HumanName());
+            audio_source.PlayOneShot(note_sound[0]);
 
             switch (note)
             {
@@ -43,8 +48,9 @@ public class Game_Buttons : MonoBehaviour
     public void OnMouseDown()
     {
         Debug.Log("Signal Bateria = " + note.HumanName());
+        audio_source.PlayOneShot(note_sound[0]);
 
-        switch(note)
+        switch (note)
         {
             case Note.music_note.Chimbal:
                 Sinal.Chimbal = true; break;
