@@ -6,14 +6,18 @@ using UnityEngine;
 public class Game_System : MonoBehaviour
 {
     [SerializeField] private bool deBug = false;
+    [SerializeField] private bool music_start = false;
+    [SerializeField] private bool music_paused = false;
     [SerializeField] private int score = 0;
     [SerializeField] private int combo = 0;
+    [SerializeField] private int this_time = 0;
     [SerializeField] private Times time_in = null;
     [SerializeField] private Game_Configuration configuration;
 
     private void Awake()
     {
         configuration.game_Time = Time.time;
+        configuration.audio_source = GetComponent<AudioSource>();
 
         if(!deBug)
         {
@@ -24,11 +28,24 @@ public class Game_System : MonoBehaviour
     void Start()
     {
         Sinal.Check_Note(Note.music_note.Chimbal);
-        for(int i = 0; i < configuration.musica.times.Count; i++)
+
+        configuration.musica.times[0].time = configuration.musica.times[0].time+Time.time;
+        float last_time = configuration.musica.times[0].time;
+
+        for (int i = 1; i < configuration.musica.times.Count; i++)
         {
-            configuration.musica.times[i].time = configuration.musica.times[i].time+configuration.game_Time+configuration.spawn_time;
+            if (configuration.musica.times[i].type == Times.metronomo_type.time)
+            {
+                last_time = last_time + configuration.musica.metronomo;
+                configuration.musica.times[i].time = last_time;
+            }
+            else if (configuration.musica.times[i].type == Times.metronomo_type.conter_time)
+            {
+                configuration.musica.times[i].time = last_time + (configuration.musica.metronomo/2);
+            }
         }
 
+        configuration.audio_source.clip = configuration.musica.soundTrack;
         time_in = configuration.musica.times[0];
     }
 
@@ -37,6 +54,8 @@ public class Game_System : MonoBehaviour
         configuration.game_Time = Time.time;
         Spawn_Check();
         CheckTime();
+
+        if(configuration.musica.start_music < configuration.game_Time && !music_start) { configuration.audio_source.Play(); ; music_start = true; }
 
         for(int i = 0;  i < configuration.score_Stars.Length; i++)
         {
@@ -47,6 +66,18 @@ public class Game_System : MonoBehaviour
                     configuration.musica.stars_music++;
                     MenuManager.Stars_Set(configuration.musica, i++);
                 }
+            }
+        }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (music_start && !music_paused)
+            {
+                configuration.audio_source.Pause(); music_paused = true;
+            }
+            else
+            {
+                configuration.audio_source.Play(); music_paused = false;
             }
         }
     }
@@ -88,9 +119,25 @@ public class Game_System : MonoBehaviour
                 {
                     if (correct == time_in.notes.Length)
                     {
-                        time_in.complet = true;
-                        combo++;
-                        score += configuration.get_Points;
+                        if(time_in.notes[0].note != Note.music_note.Empty)
+                        {
+                            time_in.complet = true;
+                            combo++;
+
+                            if (combo < 20)
+                            {
+                                score += configuration.get_Points * combo / 2;
+                            }
+                            else
+                            {
+                                score += configuration.get_Points * 10;
+                            }
+                        }
+                        else
+                        {
+                            time_in.complet = true;
+                        }
+                        
                     }
                     else { time_in.fail = true; }
                 }
@@ -98,9 +145,30 @@ public class Game_System : MonoBehaviour
 
             if (time_in.complet == true || time_in.fail == true)
             {
-                time_in = configuration.musica.times[time_in.position_In_Music+1];
+                if (time_in.fail == true) { combo = 0; }
+
+                this_time++;
+
+                if (this_time < configuration.musica.times.Count)
+                { time_in = configuration.musica.times[this_time]; }
+                else
+                {
+                    new WaitForSeconds(2f);
+
+                    MenuManager.ChangeMenu("JogoLivre");
+                }
             }
         }
+    }
+
+    public float Spawn_Time()
+    {
+        GameObject spawn = configuration.spawns[0];
+
+        float distance = spawn.transform.position.y - spawn.GetComponent<Game_Buttons>().getSpawn().transform.position.y;
+        float value = distance / configuration.musica.note_velocity;
+
+        return value;
     }
 
     public void Spawn_Check()
@@ -111,7 +179,7 @@ public class Game_System : MonoBehaviour
 
             if (!music.times[i].spawned)
             {
-                if (music.times[i].time <= configuration.game_Time + configuration.spawn_time)
+                if (music.times[i].time <= configuration.game_Time - Spawn_Time())
                 {
 
                     Times music_time = music.times[i];
@@ -151,7 +219,9 @@ public class Game_System : MonoBehaviour
             if (configuration.spawns[i].name == spawn)
             { 
                 GameObject spawn_object = configuration.spawns[i].GetComponent<Game_Buttons>().getSpawn();
-                Instantiate(configuration.note_object,spawn_object.transform);
+                GameObject note = Instantiate(configuration.note_object,spawn_object.transform);
+                note.GetComponent<SpriteRenderer>().sprite = configuration.spawns[i].GetComponent<Game_Buttons>().Get_Sprite();
+                note.GetComponent<Game_Note>().Set_Velocity(configuration.musica.note_velocity);
             }
         }
     }//Spawna as notas prevendo sua posição perfeita.
@@ -162,7 +232,7 @@ public class Game_Configuration
 {
     public float game_Time = 0;
     public float margem = 0;
-    public int spawn_time = 0;
+    public AudioSource audio_source = null;
     public int get_Points = 0;
     public int[] score_Stars = new int[3];
     public GameObject[] spawns;
@@ -179,13 +249,16 @@ public static class Game_Music
 
 public static class Sinal
 {
-    public static bool Empty, Chimbal, Caixa, TomUm, TomDois, Surdo, Bumbo, Prato;
+    public static bool Chimbal, Caixa, TomUm, TomDois, Surdo, Bumbo, Prato;
     public static bool Score_Sinal = false;
 
     public static bool Check_Note(Note.music_note note)
     {
+        if (note == Note.music_note.Empty) { return true; }
+
         bool note_check = false;
         bool value = false;
+
         switch(note)
         {
             case Note.music_note.Chimbal:

@@ -22,6 +22,8 @@ public class MenuManager : MonoBehaviour
     public static int tarefa_04 = 0;
     public static int tarefa_05 = 0;
 
+    public bool game_menu = false;
+
     public bool DeBug = true;
     public bool Change_DeBug = false;
 
@@ -37,6 +39,25 @@ public class MenuManager : MonoBehaviour
     public void Update()
     {
 
+        if(game_menu)
+        {
+            bool active_menu = !GetComponent<Animator>().GetBool("Active");
+
+            if (Input.GetKeyDown(KeyCode.Space))
+            {
+                GetComponent<Animator>().SetBool("Active", active_menu);
+            }
+
+            if(!active_menu)
+            {
+                Time.timeScale = 0.0f;
+            }
+            else
+            {
+                Time.timeScale = 1.0f;
+            }
+        }
+
         if (Change_DeBug)
         {
             if (MenuManager._DeBug == true) { MenuManager._DeBug = false; }
@@ -50,11 +71,11 @@ public class MenuManager : MonoBehaviour
 
     #region  # Menu Transition #
 
-    public void ChangeMenu(String nestMenu)
+    public static void ChangeMenu(String nestMenu)
     {
         if (MenuManager._MenuAtual != nestMenu)
         {
-            if (DeBug) { Debug.Log(nestMenu); }
+            if (MenuManager._DeBug) { Debug.Log(nestMenu); }
 
             MenuManager._MenuAtual = nestMenu;
             SceneManager.LoadScene(nestMenu);

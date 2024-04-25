@@ -146,24 +146,30 @@ public class MusicasManager : MonoBehaviour
 public class Musica
 {
     public string name = "Sem Nome";
-    public Sprite sprite;
+    public float metronomo = 0;
+    public float start_music = 0;
+    public float note_velocity = 0;
+    public AudioClip soundTrack;
     public int number = 0;
     public int stars_music = 0;
     public float stars_required = 0;
     public List<Times> times = new List<Times>();
     public bool tarefa = false;
     public bool bloqueada = true;
+    public Sprite sprite;
 }
 
 [System.Serializable]
 public class Times
 {
+    public enum metronomo_type { time , conter_time }
+
+    public metronomo_type type;
     public Note[] notes = new Note[7];
     public float time = 0;
     public bool spawned = false;
     public bool complet = false;
     public bool fail = false;
-    public int position_In_Music = 0;
 
     public void Check()
     {

@@ -477,143 +477,203 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   music_list:
   - name: Primeira Musica
-    sprite: {fileID: 1198331247, guid: 530d99bc95eddd542a716703939b9291, type: 3}
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
     number: 0
     stars_music: 0
     stars_required: 0
-    notes: []
+    times: []
     tarefa: 0
     bloqueada: 0
+    sprite: {fileID: 1198331247, guid: 530d99bc95eddd542a716703939b9291, type: 3}
   - name: Segunda Musica
-    sprite: {fileID: 898480576, guid: 034cc4e68e2efde469cdb66b63e688e0, type: 3}
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
     number: 1
     stars_music: 0
     stars_required: 0
-    notes: []
+    times: []
     tarefa: 0
     bloqueada: 1
+    sprite: {fileID: 898480576, guid: 034cc4e68e2efde469cdb66b63e688e0, type: 3}
   - name: Terceira Musica
-    sprite: {fileID: -690553950, guid: 66e70e06aad913d42ac926e2faccbd11, type: 3}
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
     number: 2
     stars_music: 0
     stars_required: 0
-    notes: []
+    times: []
     tarefa: 0
     bloqueada: 1
+    sprite: {fileID: -690553950, guid: 66e70e06aad913d42ac926e2faccbd11, type: 3}
   - name: Quarta Musica
-    sprite: {fileID: 1046472443, guid: 97aab277f04b9894d82c8897f9d954c4, type: 3}
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
     number: 3
     stars_music: 0
     stars_required: 0
-    notes: []
+    times: []
     tarefa: 0
     bloqueada: 1
+    sprite: {fileID: 1046472443, guid: 97aab277f04b9894d82c8897f9d954c4, type: 3}
   - name: Quinta Musica
-    sprite: {fileID: 1077244488, guid: d10c86367de03f34f88ed835fb22dbff, type: 3}
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
     number: 4
     stars_music: 0
     stars_required: 0
-    notes: []
+    times: []
     tarefa: 0
     bloqueada: 1
+    sprite: {fileID: 1077244488, guid: d10c86367de03f34f88ed835fb22dbff, type: 3}
   - name: Sexta Musica
-    sprite: {fileID: -1743097837, guid: bfb2d8a1bd69d5441bf1c68ff6710e4b, type: 3}
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
     number: 5
     stars_music: 0
     stars_required: 0
-    notes: []
+    times: []
     tarefa: 0
     bloqueada: 1
+    sprite: {fileID: -1743097837, guid: bfb2d8a1bd69d5441bf1c68ff6710e4b, type: 3}
   - name: Setima Musica
-    sprite: {fileID: -562520573, guid: 226a9c0c7ec9ee8458e329b6c4d46413, type: 3}
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
     number: 6
     stars_music: 0
     stars_required: 0
-    notes: []
+    times: []
     tarefa: 0
     bloqueada: 1
+    sprite: {fileID: -562520573, guid: 226a9c0c7ec9ee8458e329b6c4d46413, type: 3}
   - name: Oitava Musica
-    sprite: {fileID: 1554582817, guid: 2cb27b10eb413514886051cf48f610ee, type: 3}
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
     number: 7
     stars_music: 0
     stars_required: 0
-    notes: []
+    times: []
     tarefa: 0
     bloqueada: 1
+    sprite: {fileID: 1554582817, guid: 2cb27b10eb413514886051cf48f610ee, type: 3}
   - name: Nona Musica
-    sprite: {fileID: -1412440384, guid: f11096bf510a80c49aaa204373f1d472, type: 3}
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
     number: 8
     stars_music: 0
     stars_required: 0
-    notes: []
+    times: []
     tarefa: 0
     bloqueada: 1
+    sprite: {fileID: -1412440384, guid: f11096bf510a80c49aaa204373f1d472, type: 3}
   - name: Decima Musica
-    sprite: {fileID: 1458346023, guid: 323220792e9818e44901a530e0087225, type: 3}
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
     number: 9
     stars_music: 0
     stars_required: 0
-    notes: []
+    times: []
     tarefa: 0
     bloqueada: 1
+    sprite: {fileID: 1458346023, guid: 323220792e9818e44901a530e0087225, type: 3}
   Opcao_01:
     music:
       name: Sem Nome
-      sprite: {fileID: 0}
+      metronomo: 0
+      start_music: 0
+      note_velocity: 0
+      soundTrack: {fileID: 0}
       number: 0
       stars_music: 0
       stars_required: 0
-      notes: []
+      times: []
       tarefa: 0
       bloqueada: 1
+      sprite: {fileID: 0}
     button: {fileID: 6490561592821285120}
     image: {fileID: 7908009901747546105}
   Opcao_02:
     music:
       name: Sem Nome
-      sprite: {fileID: 0}
+      metronomo: 0
+      start_music: 0
+      note_velocity: 0
+      soundTrack: {fileID: 0}
       number: 0
       stars_music: 0
       stars_required: 0
-      notes: []
+      times: []
       tarefa: 0
       bloqueada: 1
+      sprite: {fileID: 0}
     button: {fileID: 1995139074410248466}
     image: {fileID: 3178932280408039403}
   Opcao_03:
     music:
       name: Sem Nome
-      sprite: {fileID: 0}
+      metronomo: 0
+      start_music: 0
+      note_velocity: 0
+      soundTrack: {fileID: 0}
       number: 0
       stars_music: 0
       stars_required: 0
-      notes: []
+      times: []
       tarefa: 0
       bloqueada: 1
+      sprite: {fileID: 0}
     button: {fileID: 1995139074738683794}
     image: {fileID: 3178932279796554091}
   Opcao_04:
     music:
       name: Sem Nome
-      sprite: {fileID: 0}
+      metronomo: 0
+      start_music: 0
+      note_velocity: 0
+      soundTrack: {fileID: 0}
       number: 0
       stars_music: 0
       stars_required: 0
-      notes: []
+      times: []
       tarefa: 0
       bloqueada: 1
+      sprite: {fileID: 0}
     button: {fileID: 1995139074623284654}
     image: {fileID: 3178932279580492631}
   Opcao_05:
     music:
       name: Sem Nome
-      sprite: {fileID: 0}
+      metronomo: 0
+      start_music: 0
+      note_velocity: 0
+      soundTrack: {fileID: 0}
       number: 0
       stars_music: 0
       stars_required: 0
-      notes: []
+      times: []
       tarefa: 0
       bloqueada: 1
+      sprite: {fileID: 0}
     button: {fileID: 1995139072817264488}
     image: {fileID: 3178932278982168977}
 --- !u!1 &4419724872637526740

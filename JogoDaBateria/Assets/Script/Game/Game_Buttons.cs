@@ -12,6 +12,8 @@ public class Game_Buttons : MonoBehaviour
     [SerializeField] private Note.music_note note;
     [SerializeField] private AudioClip[] note_sound;
     [SerializeField] private KeyCode key;
+    [SerializeField] private Sprite note_sprite; public Sprite Get_Sprite() { return note_sprite; }
+
     private AudioSource audio_source;
     private Animator animator;
     [SerializeField] private GameObject spawn; public GameObject getSpawn() { return spawn; }

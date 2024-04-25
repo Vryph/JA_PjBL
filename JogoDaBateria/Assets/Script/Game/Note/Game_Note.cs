@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Game_Note : MonoBehaviour
 {
-    [SerializeField] private float velocity;
+    [SerializeField] private float velocity; public float Get_Velocity() { return velocity; } public void Set_Velocity(float value) { velocity = value; }
     [SerializeField] private Time time;
     void Start()
     {

@@ -606,12 +606,16 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
+      propertyPath: music_list.Array.data[0].bloqueada
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
       propertyPath: music_list.Array.data[0].stars_required
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
       propertyPath: music_list.Array.data[1].stars_required
-      value: 3
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4419724872461580830, guid: e445e965ecde95641b0ae05a873df3e0, type: 3}
       propertyPath: music_list.Array.data[2].stars_required
