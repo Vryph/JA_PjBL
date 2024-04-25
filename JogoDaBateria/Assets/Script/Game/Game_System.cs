@@ -189,21 +189,21 @@ public class Game_System : MonoBehaviour
                     {
 
 
-                        switch (music_time.notes[o].note.HumanName())
+                        switch (music_time.notes[o].note)
                         {
-                            case "Chimbal":
+                            case Note.music_note.Chimbal:
                                 Spawn("Chimbal"); break;
-                            case "Caixa":
+                            case Note.music_note.Caixa:
                                 Spawn("Caixa"); break;
-                            case "Tom Um":
-                                Spawn("Tom_01"); UnityEngine.Debug.Log(music_time.notes[o].note.HumanName()); break;
-                            case "Tom Dois":
-                                Spawn("Tom_02"); UnityEngine.Debug.Log(music_time.notes[o].note.HumanName()); break;
-                            case "Surdo":
+                            case Note.music_note.TomUm:
+                                Spawn("Tom_01"); break;
+                            case Note.music_note.TomDois:
+                                Spawn("Tom_02"); break;
+                            case Note.music_note.Surdo:
                                 Spawn("Surdo"); break;
-                            case "Bumbo":
+                            case Note.music_note.Bumbo:
                                 Spawn("Bumbo"); break;
-                            case "Prato":
+                            case Note.music_note.Prato:
                                 Spawn("Prato"); break;
                         }
                     }

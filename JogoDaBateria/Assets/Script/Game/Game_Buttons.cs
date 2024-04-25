@@ -1,9 +1,5 @@
-using Mono.Cecil.Cil;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
+
 using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 
 [RequireComponent(typeof(AudioSource))]
@@ -26,7 +22,6 @@ public class Game_Buttons : MonoBehaviour
     {
         if(Input.GetKeyDown(key))
         {
-            Debug.Log("Signal Bateria = " + note.HumanName());
             audio_source.PlayOneShot(note_sound[0]);
             animator.SetTrigger("Clicou");
 
@@ -52,7 +47,6 @@ public class Game_Buttons : MonoBehaviour
 
     public void OnMouseDown()
     {
-        Debug.Log("Signal Bateria = " + note.HumanName());
         audio_source.PlayOneShot(note_sound[0]);
         animator.SetTrigger("Clicou");
 
