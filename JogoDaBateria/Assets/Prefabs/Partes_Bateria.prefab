@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2008411483477677228}
   m_Layer: 0
   m_Name: Sprite
-  m_TagString: Untagged
+  m_TagString: Bateria
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -100,7 +100,7 @@ GameObject:
   - component: {fileID: 1743411603477858366}
   m_Layer: 0
   m_Name: Partes_Bateria
-  m_TagString: Untagged
+  m_TagString: Bateria
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -188,6 +188,7 @@ MonoBehaviour:
   note: 0
   note_sound: []
   key: 0
+  note_sprite: {fileID: 0}
   spawn: {fileID: 0}
 --- !u!61 &3933678966241449057
 BoxCollider2D:
