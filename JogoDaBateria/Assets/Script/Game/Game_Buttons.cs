@@ -1,6 +1,9 @@
 
+using System.Drawing;
 using Unity.VisualScripting;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 [RequireComponent(typeof(AudioSource))]
 public class Game_Buttons : MonoBehaviour
@@ -23,33 +26,6 @@ public class Game_Buttons : MonoBehaviour
         if(Input.GetKeyDown(key))
         {
             CLick();
-        }
-    }
-
-    public void Touch()
-    {
-        if(Input.touchCount > 0)
-        {
-            Touch[] touch = Input.touches;
-            Vector3[] touch_position = new Vector3[touch.Length];
-
-            RaycastHit[] hit = new RaycastHit[touch.Length];
-
-            for(int i = 0; i < touch.Length; i++)
-            {
-                touch_position[i] = touch[i].position;
-            }
-
-            for(int i = 0; i < touch.Length; i++)
-            {
-                if (Physics.Raycast(Camera.main.transform.position, Camera.main.ScreenToWorldPoint(touch_position[i]), out hit[i]))
-                {
-                    if (hit[i].transform.tag == "Bateria")
-                    {
-                        hit[i].transform.gameObject.GetComponent<Game_Buttons>().CLick();
-                    }
-                }
-            }
         }
     }
 
@@ -79,6 +55,12 @@ public class Game_Buttons : MonoBehaviour
 
     public void OnMouseDown()
     {
-        CLick();
+        //CLick();
+    }
+
+    public void OnDrawGizmos()
+    {
+
+
     }
 }
