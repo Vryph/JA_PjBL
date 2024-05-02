@@ -32,20 +32,20 @@ public class MenuManager : MonoBehaviour
 
     // Animadores do Post It
 
+    [SerializeField] private Animator button;
     [SerializeField] private Animator jogoLivre;
     [SerializeField] private Animator musicas;
     [SerializeField] private Animator tarefas;
 
     public void Update()
     {
-
         if(game_menu)
         {
-            bool active_menu = !GetComponent<Animator>().GetBool("Active");
+            bool active_menu = !GetComponent<Animator>().GetBool("Ativo");
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Escape))
             {
-                GetComponent<Animator>().SetBool("Active", active_menu);
+                GetComponent<Animator>().SetBool("Ativo", active_menu);
             }
 
             if(!active_menu)
@@ -68,7 +68,14 @@ public class MenuManager : MonoBehaviour
 
         this.DeBug = MenuManager._DeBug;
     }
+    
+    public void OpenOrCloseMenu()
+    {
+        Animator anim = GetComponent<Animator>();
 
+        anim.SetBool("Ativo", !anim.GetBool("Ativo"));
+        button.SetBool("Ativo", anim.GetBool("Ativo"));
+    }
     #region  # Menu Transition #
 
     public static void ChangeMenu(String nestMenu)

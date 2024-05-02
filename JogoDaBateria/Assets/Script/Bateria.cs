@@ -22,15 +22,14 @@ public class Bateria : MonoBehaviour
         if (Input.touchCount > 0)
         {
             Touch[] touch = Input.touches;
-            Vector2[] touch_position = new Vector2[touch.Length];
 
-            RaycastHit hit;
+            Ray ray;
 
             for (int i = 0; i < touch.Length; i++)
             {
-                touch_position[i] = touch[i].position;
+                ray = Camera.main.ScreenPointToRay(touch[i].position);
 
-                if (Physics.Raycast(Camera.main.transform.position, Camera.main.ScreenToWorldPoint(touch_position[i]), out hit, 250))
+                if (Physics.Raycast(ray.origin, ray.direction * 100, out RaycastHit hit))
                 {
                     if (hit.transform.GetComponent<Game_Buttons>() != null)
                     {
@@ -44,37 +43,18 @@ public class Bateria : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Vector3[] touch_position = new Vector3[3];
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 
-            RaycastHit hit;
-
-            for (int i = 0; i < touch_position.Length; i++)
+            if (Physics.Raycast(ray.origin, ray.direction * 100, out RaycastHit hit))
             {
-                touch_position[i] = Input.mousePosition;
-                Debug.Log("Mouse Position: X " + touch_position[i].x + "Y" + touch_position[i].y);
+                Debug.Log("Chegou em algo.");
 
-                touch_position[i] = Camera.main.ScreenToWorldPoint(touch_position[i]);
-                Debug.Log("Mouse Position To World: X " + touch_position[i].x + "Y" + touch_position[i].y);
+                DrawCube(hit.transform.position, 5, UnityEngine.Color.red);
 
-                Vector3 direction = new Vector3(touch_position[i].x, touch_position[i].y, 20);
-
-                Debug.DrawLine(touch_position[i], Camera.main.transform.forward, UnityEngine.Color.red, 5f);
-                Debug.DrawLine(touch_position[i], direction, UnityEngine.Color.black, 5f);
-
-                DrawCube(direction, 10, UnityEngine.Color.black);
-
-                if (Physics.Raycast(touch_position[i], direction ,out hit))
+                if (hit.transform.GetComponent<Game_Buttons>() != null)
                 {
-                    Debug.Log("Chegou em algo.");
-
-                    DrawCube(hit.transform.position, 5, UnityEngine.Color.red);
-
-                    if (hit.transform.GetComponent<Game_Buttons>() != null)
-                    {
-                        Debug.Log("Algo tem Game Buttons.");
-                        hit.transform.gameObject.GetComponent<Game_Buttons>().CLick();
-
-                    }
+                    Debug.Log("Algo tem Game Buttons.");
+                    hit.transform.gameObject.GetComponent<Game_Buttons>().CLick();
                 }
             }
         }

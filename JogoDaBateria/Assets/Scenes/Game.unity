@@ -130,6 +130,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1654912412}
     m_Modifications:
+    - target: {fileID: 629925833410544102, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1090295841239301524, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -393
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811875254714888304, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -145.00002
+      objectReference: {fileID: 0}
     - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -140,19 +152,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
-      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_AnchorMin.y
@@ -160,11 +172,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_LocalScale.x
@@ -208,11 +220,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -266
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -33.000008
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -260,15 +272,23 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 7e8f1cdfdbe47d5499c3bb76062ee6b1, type: 2}
     - target: {fileID: 4627739074330864475, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: DeBug
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4627739074330864475, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: game_menu
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4627739074330864475, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
+      propertyPath: Change_DeBug
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4742459229281616745, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_Name
       value: Menu_Principal_Pronto
+      objectReference: {fileID: 0}
+    - target: {fileID: 5959927183174919287, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
@@ -411,7 +431,7 @@ MonoBehaviour:
     fail: 0
   configuration:
     game_Time: 0
-    margem: 0.5
+    margem: 0.2
     audio_source: {fileID: 743194818}
     get_Points: 4
     score_Stars: 64000000c80000002c010000
@@ -425,10 +445,10 @@ MonoBehaviour:
     - {fileID: 1796380831}
     musica:
       name: We Will Rock You
-      metronomo: 0.74
-      start_music: 2
+      metronomo: 0.704
+      start_music: 3
       note_velocity: 5
-      soundTrack: {fileID: 8300000, guid: bc31391959d45db4e89f609f38dec45b, type: 3}
+      soundTrack: {fileID: 8300000, guid: 9d3ceacf27e192542996bf978e7a635d, type: 3}
       number: 0
       stars_music: 0
       stars_required: 0
@@ -437,8 +457,9 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
-        time: 3
+        time: 4
         spawned: 0
         complet: 0
         fail: 0
@@ -446,6 +467,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -455,6 +477,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -464,6 +487,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -473,6 +497,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -482,6 +507,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -491,6 +517,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -500,6 +527,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -509,6 +537,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -518,6 +547,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -527,6 +557,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -536,6 +567,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -545,6 +577,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -554,6 +587,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -563,6 +597,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -572,6 +607,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -581,6 +617,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -590,6 +627,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -599,6 +637,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -608,6 +647,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -617,6 +657,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -626,6 +667,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -635,6 +677,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -644,6 +687,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -653,6 +697,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -662,6 +707,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -671,6 +717,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -680,6 +727,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -689,6 +737,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -698,6 +747,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -707,6 +757,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -716,6 +767,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -725,6 +777,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -734,6 +787,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -743,6 +797,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -752,6 +807,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -761,6 +817,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -770,6 +827,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -779,6 +837,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -788,6 +847,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -797,6 +857,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -806,6 +867,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -815,6 +877,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -824,6 +887,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -833,6 +897,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -842,6 +907,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -851,6 +917,7 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -860,6 +927,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -869,9 +937,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -881,9 +951,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -893,6 +965,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -902,9 +975,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -914,9 +989,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -926,6 +1003,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -935,9 +1013,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -947,9 +1027,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -959,6 +1041,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -968,9 +1051,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -980,9 +1065,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -992,6 +1079,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1001,9 +1089,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1013,9 +1103,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1025,6 +1117,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1034,9 +1127,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1046,9 +1141,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1058,6 +1155,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1067,9 +1165,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1079,9 +1179,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1091,6 +1193,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1100,9 +1203,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1112,9 +1217,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1124,6 +1231,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1133,9 +1241,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1145,9 +1255,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1157,6 +1269,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1166,9 +1279,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1178,9 +1293,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1190,6 +1307,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1199,9 +1317,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1211,9 +1331,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1223,6 +1345,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1232,9 +1355,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1244,9 +1369,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1256,6 +1383,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1265,9 +1393,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1277,9 +1407,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1289,6 +1421,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1298,9 +1431,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1310,9 +1445,11 @@ MonoBehaviour:
         notes:
         - note: 6
           beat: 0
+          special: 0
           active: 0
         - note: 5
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1322,6 +1459,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1331,9 +1469,11 @@ MonoBehaviour:
         notes:
         - note: 7
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1343,6 +1483,7 @@ MonoBehaviour:
         notes:
         - note: 0
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1352,6 +1493,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1361,6 +1503,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1370,6 +1513,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1379,6 +1523,7 @@ MonoBehaviour:
         notes:
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1388,9 +1533,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 1
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1400,9 +1547,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1412,9 +1561,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1424,6 +1575,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1433,9 +1585,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1445,9 +1599,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1457,9 +1613,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1469,6 +1627,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1478,9 +1637,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1490,9 +1651,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1502,9 +1665,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1514,6 +1679,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1523,9 +1689,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1535,9 +1703,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1547,9 +1717,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1559,6 +1731,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1568,9 +1741,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1580,9 +1755,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1592,9 +1769,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1604,6 +1783,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1613,9 +1793,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1625,9 +1807,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1637,9 +1821,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1649,6 +1835,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1658,9 +1845,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1670,9 +1859,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1682,9 +1873,11 @@ MonoBehaviour:
         notes:
         - note: 7
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1694,9 +1887,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 1
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1706,9 +1901,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1718,9 +1915,11 @@ MonoBehaviour:
         notes:
         - note: 7
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1730,9 +1929,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 1
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1742,9 +1943,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1754,9 +1957,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1766,6 +1971,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1775,9 +1981,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1787,9 +1995,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1799,9 +2009,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1811,6 +2023,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1820,9 +2033,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1832,9 +2047,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1844,9 +2061,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1856,6 +2075,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1865,9 +2085,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1877,9 +2099,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1889,9 +2113,11 @@ MonoBehaviour:
         notes:
         - note: 7
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1901,9 +2127,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 1
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1913,9 +2141,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1925,9 +2155,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1937,6 +2169,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1946,9 +2179,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1958,9 +2193,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1970,9 +2207,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1982,6 +2221,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -1991,9 +2231,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -2003,9 +2245,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -2015,9 +2259,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -2027,6 +2273,7 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -2036,9 +2283,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 6
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -2048,9 +2297,11 @@ MonoBehaviour:
         notes:
         - note: 1
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -2058,11 +2309,13 @@ MonoBehaviour:
         fail: 0
       - type: 0
         notes:
-        - note: 1
+        - note: 7
           beat: 0
+          special: 0
           active: 0
         - note: 2
           beat: 0
+          special: 0
           active: 0
         time: 0
         spawned: 0
@@ -2070,8 +2323,9 @@ MonoBehaviour:
         fail: 0
       tarefa: 0
       bloqueada: 0
-      sprite: {fileID: 0}
-    note_object: {fileID: 3410832944318796232, guid: ff7fdf1bd99030d45b57946a5cb44ad2, type: 3}
+      image: {fileID: 1198331247, guid: 530d99bc95eddd542a716703939b9291, type: 3}
+    note_Empety: {fileID: 3410832944318796232, guid: ff7fdf1bd99030d45b57946a5cb44ad2, type: 3}
+    note_Ghost: {fileID: 3410832944318796232, guid: d5944a87f24c86e498f48e4e6a1e0308, type: 3}
 --- !u!224 &743194817
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2085,7 +2339,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2264,7 +2518,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1244143411 stripped
 GameObject:
@@ -2276,7 +2530,12 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3276234718475576827, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
   m_PrefabInstance: {fileID: 368413707}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1460528698
+--- !u!1 &1484454346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 272013657305287881, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+  m_PrefabInstance: {fileID: 4900006963795567786}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1498729147
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2284,87 +2543,114 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1460528699}
-  - component: {fileID: 1460528700}
-  m_Layer: 0
-  m_Name: Caderno
+  - component: {fileID: 1498729152}
+  - component: {fileID: 1498729151}
+  - component: {fileID: 1498729150}
+  - component: {fileID: 1498729149}
+  - component: {fileID: 1498729148}
+  m_Layer: 5
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1460528699
-Transform:
+--- !u!114 &1498729148
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1460528698}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -4050.0002}
-  m_LocalScale: {x: 45.042316, y: 45.042316, z: 45.042316}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1654912412}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1460528700
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1460528698}
+  m_GameObject: {fileID: 1498729147}
   m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: -150
-  m_Sprite: {fileID: 21300000, guid: 0abf388bff3e6424fbdae93b88a77ab9, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 19.2, y: 10.8}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!1 &1484454346 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 272013657305287881, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
-  m_PrefabInstance: {fileID: 4900006963795567786}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2655a078ab45124aac4f586f95e8b9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MenuInicial: {fileID: 0}
+  seta: {fileID: 0}
+--- !u!114 &1498729149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498729147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1498729150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498729147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1498729151
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498729147}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 800231083
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1498729152
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498729147}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1836672187}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.468}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &1654912408
 GameObject:
   m_ObjectHideFlags: 0
@@ -2443,7 +2729,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
+  m_SortingLayerID: 1908811973
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1654912412
@@ -2458,10 +2744,9 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1460528699}
   - {fileID: 1244143412}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.468}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -2481,17 +2766,88 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MenuInicial: {fileID: 1244143411}
-  seta: {fileID: 1670442946}
---- !u!95 &1670442946 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 516188293, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
-  m_PrefabInstance: {fileID: 368413707}
-  m_PrefabAsset: {fileID: 0}
+  seta: {fileID: 0}
 --- !u!1 &1796380831 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2610230358733611618, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
   m_PrefabInstance: {fileID: 4900006963795567786}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1836672186
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1836672187}
+  - component: {fileID: 1836672189}
+  - component: {fileID: 1836672188}
+  m_Layer: 5
+  m_Name: Caderno
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1836672187
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836672186}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.9999393, y: 0.9999393, z: 0.9999393}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1498729152}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1836672188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836672186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 0abf388bff3e6424fbdae93b88a77ab9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1836672189
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836672186}
+  m_CullTransparentMesh: 1
 --- !u!1 &1921889934 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5822741800375344233, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
@@ -2504,9 +2860,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 272013657305287880, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 272013657305287880, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
+    - target: {fileID: 466015915447519292, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 466015915447519292, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
     - target: {fileID: 767536676683743639, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
       propertyPath: m_Name
       value: Bateria
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489185952137415571, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1489185952137415571, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040487545272543951, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2040487545272543951, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
+    - target: {fileID: 2525280654067331025, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_Size.x
+      value: 0.81516767
+      objectReference: {fileID: 0}
+    - target: {fileID: 2525280654067331025, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6996464
+      objectReference: {fileID: 0}
+    - target: {fileID: 2525280654067331025, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_Center.x
+      value: 0.0077010477
+      objectReference: {fileID: 0}
+    - target: {fileID: 2525280654067331025, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_Center.y
+      value: -0.026954725
       objectReference: {fileID: 0}
     - target: {fileID: 2574244686909776036, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2516,9 +2920,97 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 7.65
       objectReference: {fileID: 0}
+    - target: {fileID: 2610230358733611619, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2610230358733611619, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018692933065331066, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_Size.x
+      value: 1.1469443
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018692933065331066, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_Size.y
+      value: 0.7795833
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018692933065331066, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_Center.x
+      value: 0.000000052954366
+      objectReference: {fileID: 0}
+    - target: {fileID: 4018692933065331066, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_Center.y
+      value: -0.036736086
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455932666616431824, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455932666616431824, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900006964187292355, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4900006964187292355, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022526013012987742, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5022526013012987742, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611150519004344432, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611150519004344432, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
+    - target: {fileID: 5822741800375344232, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5822741800375344232, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963670370034212844, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963670370034212844, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572294160585401618, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6572294160585401618, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108322470970650340, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7108322470970650340, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
+      objectReference: {fileID: 0}
     - target: {fileID: 7334041142571376275, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7334041142571376275, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2559,6 +3051,14 @@ PrefabInstance:
     - target: {fileID: 7334041142571376275, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947111008453006410, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8947111008453006410, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1554282985
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e279bab4cf1c01e47aabf1472fb00cf1, type: 3}

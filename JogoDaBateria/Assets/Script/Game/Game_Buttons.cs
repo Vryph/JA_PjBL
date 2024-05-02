@@ -29,9 +29,14 @@ public class Game_Buttons : MonoBehaviour
         }
     }
 
-    public void CLick()
+    public void PlayAudio()
     {
         audio_source.PlayOneShot(note_sound[0]);
+    }
+
+    public void CLick()
+    {
+        PlayAudio();
         animator.SetTrigger("Clicou");
 
         switch (note)
@@ -51,11 +56,6 @@ public class Game_Buttons : MonoBehaviour
             case Note.music_note.Prato:
                 Sinal.Prato = true; break;
         }
-    }
-
-    public void OnMouseDown()
-    {
-        //CLick();
     }
 
     public void OnDrawGizmos()

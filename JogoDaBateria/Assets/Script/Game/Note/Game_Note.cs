@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Game_Note : MonoBehaviour
 {
-    [SerializeField] private float velocity; public float Get_Velocity() { return velocity; } public void Set_Velocity(float value) { velocity = value; }
-    [SerializeField] private Time time;
+    [SerializeField] private float velocity; public float GetVelocity() { return velocity; } public void SetVelocity(float value) { velocity = value; }
+    [SerializeField] private Times time;
     void Start()
     {
         
@@ -20,7 +20,12 @@ public class Game_Note : MonoBehaviour
         real_velocity = real_velocity * UnityEngine.Time.deltaTime;
 
         transform.Translate(real_velocity);
+
+        if(time.complet || time.fail)
+        {
+            Destroy(gameObject);
+        }
     }
 
-    public void SetTime(Time time){ this.time = time; }
+    public void SetTime(Times time){ this.time = time; }
 }

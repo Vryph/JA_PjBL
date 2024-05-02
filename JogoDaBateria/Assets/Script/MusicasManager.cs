@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Runtime.InteropServices.WindowsRuntime;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class MusicasManager : MonoBehaviour
 {
@@ -67,13 +70,13 @@ public class MusicasManager : MonoBehaviour
 
     void Update()
     {
-        if (Opcao_01.image.sprite != Opcao_01.music.sprite)
+        if (Opcao_01.image.sprite != Opcao_01.music.image)
         {
-            Opcao_01.image.sprite = Opcao_01.music.sprite;
-            Opcao_02.image.sprite = Opcao_02.music.sprite;
-            Opcao_03.image.sprite = Opcao_03.music.sprite;
-            Opcao_04.image.sprite = Opcao_04.music.sprite;
-            Opcao_05.image.sprite = Opcao_05.music.sprite;
+            Opcao_01.image.sprite = Opcao_01.music.image;
+            Opcao_02.image.sprite = Opcao_02.music.image;
+            Opcao_03.image.sprite = Opcao_03.music.image;
+            Opcao_04.image.sprite = Opcao_04.music.image;
+            Opcao_05.image.sprite = Opcao_05.music.image;
         }
     }
     public void Up()
@@ -156,7 +159,7 @@ public class Musica
     public List<Times> times = new List<Times>();
     public bool tarefa = false;
     public bool bloqueada = true;
-    public Sprite sprite;
+    public UnityEngine.Sprite image;
 }
 
 [System.Serializable]
@@ -200,9 +203,9 @@ public class Note
 {
     public music_note note = music_note.Empty;
     public music_beat beat = music_beat.Average;
+    public music_special_note special = music_special_note.None;
+    private Times _time = null; public Times time { get; set; }
     public bool active = true;
-
- 
 
     public enum music_note
     {
@@ -212,6 +215,10 @@ public class Note
     public enum music_beat
     {
         Weak,Average,Strong
+    }
+    public enum music_special_note
+    {
+        None,Continuous,Ghost
     }
 }
 
