@@ -122,7 +122,7 @@ public class Game_System : MonoBehaviour
                 if(configuration.musica.stars_music < i++)
                 {
                     configuration.musica.stars_music++;
-                    MenuManager.Stars_Set(configuration.musica, i++);
+                    //MenuManager.Stars_Set(configuration.musica, i++);
                 }
             }
         }
@@ -303,9 +303,6 @@ public class Game_System : MonoBehaviour
 
             if (time_in.complet == true || time_in.fail == true)
             {
-                
-                
-
                 if (time_in.fail == true) { combo = 0; }
 
                 CheckGhost(ref time_in);
@@ -319,10 +316,25 @@ public class Game_System : MonoBehaviour
                 {
                     new WaitForSeconds(2f);
 
+                    GameSave();
+
                     MenuManager.ChangeMenu("JogoLivre");
                 }
             }
         }
+    }
+
+    public void GameSave()
+    {
+        if(configuration.musica.tarefa)
+        {
+            MenuManager.static_tarefas[configuration.musica.number].start_music = configuration.musica.start_music;
+        }
+        else
+        {
+            MenuManager.static_musicas[configuration.musica.number].start_music = configuration.musica.start_music;
+        }
+        MenuManager.save();
     }
 
     public float Spawn_Time()

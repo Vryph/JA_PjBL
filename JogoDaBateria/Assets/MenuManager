@@ -1,0 +1,5973 @@
+{
+    "path": "Assets/MenuManager",
+    "game_musicas": [
+        {
+            "name": "We Will Rock You",
+            "metronomo": 0.7039999961853027,
+            "start_music": 3.0,
+            "note_velocity": 5.0,
+            "soundTrack": {
+                "instanceID": 24582
+            },
+            "number": 0,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 4.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 7,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 0,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 1,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 7,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 1,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 7,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 1,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 7,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 1,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 7,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                }
+            ],
+            "tarefa": false,
+            "bloqueada": false,
+            "image": {
+                "instanceID": 24584
+            }
+        },
+        {
+            "name": "Segunda Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 1,
+            "stars_music": 0,
+            "stars_required": 60.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 25038
+            }
+        },
+        {
+            "name": "Terceira Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 2,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 25046
+            }
+        },
+        {
+            "name": "Quarta Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 3,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 25042
+            }
+        },
+        {
+            "name": "Quinta Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 4,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 25050
+            }
+        },
+        {
+            "name": "Sexta Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 5,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26198
+            }
+        },
+        {
+            "name": "Setima Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 6,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26200
+            }
+        },
+        {
+            "name": "Oitava Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 7,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26202
+            }
+        },
+        {
+            "name": "Nona Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 8,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26204
+            }
+        },
+        {
+            "name": "Decima Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 9,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26206
+            }
+        }
+    ],
+    "game_tarefas": [
+        {
+            "name": "We Will Rock You",
+            "metronomo": 0.7039999961853027,
+            "start_music": 2.0,
+            "note_velocity": 5.0,
+            "soundTrack": {
+                "instanceID": 24582
+            },
+            "number": 0,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 3.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 5,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 7,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 0,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 7,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 7,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 7,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 6,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 1,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                },
+                {
+                    "type": 0,
+                    "notes": [
+                        {
+                            "note": 1,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        },
+                        {
+                            "note": 2,
+                            "beat": 0,
+                            "special": 0,
+                            "active": false
+                        }
+                    ],
+                    "time": 0.0,
+                    "spawned": false,
+                    "complet": false,
+                    "fail": false
+                }
+            ],
+            "tarefa": false,
+            "bloqueada": false,
+            "image": {
+                "instanceID": 26570
+            }
+        },
+        {
+            "name": "Segunda Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 1,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26572
+            }
+        },
+        {
+            "name": "Terceira Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 2,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26574
+            }
+        },
+        {
+            "name": "Quarta Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 3,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26576
+            }
+        },
+        {
+            "name": "Quinta Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 4,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26578
+            }
+        },
+        {
+            "name": "Sexta Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 5,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26580
+            }
+        },
+        {
+            "name": "Setima Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 6,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26582
+            }
+        },
+        {
+            "name": "Oitava Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 7,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26584
+            }
+        },
+        {
+            "name": "Nona Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 8,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26586
+            }
+        },
+        {
+            "name": "Decima Musica",
+            "metronomo": 0.0,
+            "start_music": 0.0,
+            "note_velocity": 0.0,
+            "soundTrack": {
+                "instanceID": 0
+            },
+            "number": 9,
+            "stars_music": 0,
+            "stars_required": 0.0,
+            "times": [],
+            "tarefa": false,
+            "bloqueada": true,
+            "image": {
+                "instanceID": 26588
+            }
+        }
+    ]
+}

@@ -1,26 +1,23 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using static UnityEditor.LightingExplorerTableColumn;
 
 public class MenuManager : MonoBehaviour
 {
     public static bool _DeBug = true;
     public static string _MenuAtual = "JogoLivre";
+    public static JSON_MANAGER json = new JSON_MANAGER();
 
-    public static int musica_01 = 0;
-    public static int musica_02 = 0;
-    public static int musica_03 = 0;
-    public static int musica_04 = 0;
-    public static int musica_05 = 0;
+    [SerializeField] public static Musica[] static_musicas = new Musica[10];
+    [SerializeField] public static Musica[] static_tarefas = new Musica[10];
 
-    public static int tarefa_01 = 0;
-    public static int tarefa_02 = 0;
-    public static int tarefa_03 = 0;
-    public static int tarefa_04 = 0;
-    public static int tarefa_05 = 0;
+    [SerializeField] private Musica[] game_musicas = new Musica[10];
+    [SerializeField] private Musica[] game_tarefas = new Musica[10];
 
     public bool game_menu = false;
 
@@ -37,8 +34,29 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private Animator musicas;
     [SerializeField] private Animator tarefas;
 
+    public void Start()
+    {
+
+        MenuManager.static_musicas = game_musicas;
+        MenuManager.static_tarefas = game_tarefas;
+        
+        MenuManager.save();
+
+        MenuManager.json.load();
+    }
+
+    public static void save()
+    {
+        MenuManager.json.game_musicas = MenuManager.static_musicas;
+        MenuManager.json.game_tarefas = MenuManager.static_tarefas;
+        MenuManager.json.save();
+    }
+
     public void Update()
     {
+        game_musicas = MenuManager.static_musicas;
+        game_tarefas = MenuManager.static_tarefas;
+
         if(game_menu)
         {
             bool active_menu = !GetComponent<Animator>().GetBool("Ativo");
@@ -118,7 +136,7 @@ public class MenuManager : MonoBehaviour
 
     #endregion
 
-    #region # Stars Manager #
+    /*#region # Stars Manager #
 
     public static void Stars_Set(Musica musica, int value)
     {
@@ -216,7 +234,29 @@ public class MenuManager : MonoBehaviour
         return return_value;
     }
 
-    #endregion
+    #endregion*/
+}
+
+[Serializable]
+public class JSON_MANAGER
+{
+    [SerializeField] private String path = "Assets/JSON_MANAGER.txt";
+    [SerializeField] public Musica[] game_musicas;
+    [SerializeField] public Musica[] game_tarefas;
+
+    public void save()
+    {
+        var content = JsonUtility.ToJson(this, true);
+        File.WriteAllText(path, content);
+    }
+    public void load()
+    {
+        var content = File.ReadAllText(path);
+        var JSON = JsonUtility.FromJson<JSON_MANAGER>(content);
+
+        game_musicas = JSON.game_musicas;
+        game_tarefas = JSON.game_tarefas;
+    }
 }
 
 public class StarsException : Exception

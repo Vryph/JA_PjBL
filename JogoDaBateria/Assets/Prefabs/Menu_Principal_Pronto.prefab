@@ -1821,6 +1821,3984 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eac9d8f8506a1394f9553f122be0c9b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  game_musicas:
+  - name: We Will Rock You
+    metronomo: 0.704
+    start_music: 3
+    note_velocity: 5
+    soundTrack: {fileID: 8300000, guid: 9d3ceacf27e192542996bf978e7a635d, type: 3}
+    number: 0
+    stars_music: 0
+    stars_required: 0
+    times:
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 4
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 7
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 0
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 1
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 7
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 1
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 7
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 1
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 7
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 1
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 7
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    tarefa: 0
+    bloqueada: 0
+    image: {fileID: 1198331247, guid: 530d99bc95eddd542a716703939b9291, type: 3}
+  - name: Segunda Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 1
+    stars_music: 0
+    stars_required: 60
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: 898480576, guid: 034cc4e68e2efde469cdb66b63e688e0, type: 3}
+  - name: Terceira Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 2
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: -690553950, guid: 66e70e06aad913d42ac926e2faccbd11, type: 3}
+  - name: Quarta Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 3
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: 1046472443, guid: 97aab277f04b9894d82c8897f9d954c4, type: 3}
+  - name: Quinta Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 4
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: 1077244488, guid: d10c86367de03f34f88ed835fb22dbff, type: 3}
+  - name: Sexta Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 5
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: -1743097837, guid: bfb2d8a1bd69d5441bf1c68ff6710e4b, type: 3}
+  - name: Setima Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 6
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: -562520573, guid: 226a9c0c7ec9ee8458e329b6c4d46413, type: 3}
+  - name: Oitava Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 7
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: 1554582817, guid: 2cb27b10eb413514886051cf48f610ee, type: 3}
+  - name: Nona Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 8
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: -1412440384, guid: f11096bf510a80c49aaa204373f1d472, type: 3}
+  - name: Decima Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 9
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: 1458346023, guid: 323220792e9818e44901a530e0087225, type: 3}
+  game_tarefas:
+  - name: We Will Rock You
+    metronomo: 0.704
+    start_music: 2
+    note_velocity: 5
+    soundTrack: {fileID: 8300000, guid: 9d3ceacf27e192542996bf978e7a635d, type: 3}
+    number: 0
+    stars_music: 0
+    stars_required: 0
+    times:
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 3
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      - note: 5
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 7
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 0
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 7
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 7
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 7
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 6
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 1
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    - type: 0
+      notes:
+      - note: 1
+        beat: 0
+        special: 0
+        active: 0
+      - note: 2
+        beat: 0
+        special: 0
+        active: 0
+      time: 0
+      spawned: 0
+      complet: 0
+      fail: 0
+    tarefa: 0
+    bloqueada: 0
+    image: {fileID: 1895614084, guid: e8e3f5bba768bf64382710016673ed59, type: 3}
+  - name: Segunda Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 1
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: 1296411753, guid: 64e8c7f1966b97e4c90937c42d812fc2, type: 3}
+  - name: Terceira Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 2
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: 1265339014, guid: 083960acb1bf1024d9054fb78db90346, type: 3}
+  - name: Quarta Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 3
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: 348515156, guid: fd1e76ddfade96549a3280f86aefc736, type: 3}
+  - name: Quinta Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 4
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: -737574470, guid: b499b9ab783eec14f937066818d2ebef, type: 3}
+  - name: Sexta Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 5
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: -111733183, guid: 15d4e90d48a537f458429d9d9b6fceb9, type: 3}
+  - name: Setima Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 6
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: 762068978, guid: f8b30a600af856841b392a6bde935e37, type: 3}
+  - name: Oitava Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 7
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: -1614837008, guid: 98aca7318c3d73340870bed5dcd33ffb, type: 3}
+  - name: Nona Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 8
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: -1457247766, guid: d02936e0a8d8a6941b2a91e5c615a4e4, type: 3}
+  - name: Decima Musica
+    metronomo: 0
+    start_music: 0
+    note_velocity: 0
+    soundTrack: {fileID: 0}
+    number: 9
+    stars_music: 0
+    stars_required: 0
+    times: []
+    tarefa: 0
+    bloqueada: 1
+    image: {fileID: 1671363257, guid: 5b3f5ef2da10eef4490ea8c84d0c1497, type: 3}
   game_menu: 0
   DeBug: 1
   Change_DeBug: 0

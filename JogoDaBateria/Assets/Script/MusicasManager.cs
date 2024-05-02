@@ -11,7 +11,9 @@ using UnityEngine.UIElements;
 
 public class MusicasManager : MonoBehaviour
 {
-    [SerializeField] private List<Musica> music_list = new List<Musica>();
+    [SerializeField] private bool tarefa = false;
+
+    [SerializeField] private Musica[] music_list = new Musica[10];
 
     [SerializeField] private Button Opcao_01;
 
@@ -26,11 +28,8 @@ public class MusicasManager : MonoBehaviour
     void Start()
     {
 
-        music_list[0].stars_music = MenuManager.musica_01;
-        music_list[1].stars_music = MenuManager.musica_02;
-        music_list[2].stars_music = MenuManager.musica_03;
-        music_list[3].stars_music = MenuManager.musica_04;
-        music_list[4].stars_music = MenuManager.musica_05;
+        if (tarefa) { music_list = MenuManager.static_musicas; }
+        else { music_list = MenuManager.static_tarefas; }
 
         Opcao_01.music = music_list[0];
         Opcao_02.music = music_list[1];
@@ -38,7 +37,7 @@ public class MusicasManager : MonoBehaviour
         Opcao_04.music = music_list[3];
         Opcao_05.music = music_list[4];
 
-        for(int i = 0; i < music_list.Count; i++)
+        for(int i = 0; i < music_list.Length; i++)
         {
             music_list[i].number = i;
             UnityEngine.Debug.Log(i);
@@ -46,17 +45,17 @@ public class MusicasManager : MonoBehaviour
             {
                 if (music_list[i].tarefa)
                 {
-                    music_list[i].stars_music = MenuManager.Stars_Get(i + 1, true);
+                    //music_list[i].stars_music = MenuManager.Stars_Get(i + 1, true);
                 }
                 else
                 {
-                    music_list[i].stars_music = MenuManager.Stars_Get(i + 1, false);
+                    //music_list[i].stars_music = MenuManager.Stars_Get(i + 1, false);
                 }
                 
-                if(music_list[i].stars_required <= MenuManager.Stars_All())
+                /*if(music_list[i].stars_required <= MenuManager.Stars_All())
                 {
                     music_list[i].bloqueada = false;
-                }
+                }*/
             }
             catch (StarsException)
             {
@@ -94,7 +93,7 @@ public class MusicasManager : MonoBehaviour
 
     public void Down()
     {
-        if (Opcao_05.music.number < music_list.Count - 1)
+        if (Opcao_05.music.number < music_list.Length - 1)
         {
             Opcao_01.music = Opcao_02.music;
             Opcao_02.music = Opcao_03.music;
