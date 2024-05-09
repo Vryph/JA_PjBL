@@ -13,8 +13,6 @@ public class MusicasManager : MonoBehaviour
 {
     [SerializeField] private bool tarefa = false;
 
-    [SerializeField] private Musica[] music_list = new Musica[10];
-
     [SerializeField] private Button Opcao_01;
 
     [SerializeField] private Button Opcao_02;
@@ -27,41 +25,57 @@ public class MusicasManager : MonoBehaviour
 
     void Start()
     {
+        int length = 0;
 
-        if (tarefa) { music_list = MenuManager.static_musicas; }
-        else { music_list = MenuManager.static_tarefas; }
-
-        Opcao_01.music = music_list[0];
-        Opcao_02.music = music_list[1];
-        Opcao_03.music = music_list[2];
-        Opcao_04.music = music_list[3];
-        Opcao_05.music = music_list[4];
-
-        for(int i = 0; i < music_list.Length; i++)
+        if (tarefa)
         {
-            music_list[i].number = i;
-            UnityEngine.Debug.Log(i);
+            Opcao_01.music = MenuManager.static_musicas[0];
+            Opcao_02.music = MenuManager.static_musicas[1];
+            Opcao_03.music = MenuManager.static_musicas[2];
+            Opcao_04.music = MenuManager.static_musicas[3];
+            Opcao_05.music = MenuManager.static_musicas[4];
+
+            check_stars(ref MenuManager.static_tarefas);
+        }
+        else
+        {
+            Opcao_01.music = MenuManager.static_tarefas[0];
+            Opcao_02.music = MenuManager.static_tarefas[1];
+            Opcao_03.music = MenuManager.static_tarefas[2];
+            Opcao_04.music = MenuManager.static_tarefas[3];
+            Opcao_05.music = MenuManager.static_tarefas[4];
+
+            check_stars(ref MenuManager.static_musicas);
+        }
+    }
+
+    private void check_stars(ref Musica[] musicas)
+    {
+        for (int i = 0; i < musicas.Length; i++)
+        {
+            MenuManager.static_musicas[i].number = i;
+
             try
             {
-                if (music_list[i].tarefa)
+                if (i != 0)
                 {
-                    //music_list[i].stars_music = MenuManager.Stars_Get(i + 1, true);
+                    if (musicas[i].stars_required <= musicas[i-1].stars_music)
+                    {
+                        musicas[i].bloqueada = false;
+                    }
+                    else
+                    {
+                        musicas[i].bloqueada = true;
+                    }
                 }
                 else
                 {
-                    //music_list[i].stars_music = MenuManager.Stars_Get(i + 1, false);
+                    musicas[i].bloqueada = false;
                 }
-                
-                /*if(music_list[i].stars_required <= MenuManager.Stars_All())
-                {
-                    music_list[i].bloqueada = false;
-                }*/
             }
             catch (StarsException)
             {
-                music_list[i].stars_music = 0;
-                music_list[i].bloqueada = true;
-                UnityEngine.Debug.Log("Execption in music/task: Music/Task " + music_list[i].number);
+                UnityEngine.Debug.Log("Execption in task: Music");
                 UnityEngine.Debug.Log("list number " + i);
             }
         }
@@ -87,20 +101,28 @@ public class MusicasManager : MonoBehaviour
             Opcao_03.music = Opcao_02.music;
             Opcao_02.music = Opcao_01.music;
 
-            Opcao_01.music = music_list[Opcao_01.music.number - 1];
+            if (tarefa) { Opcao_01.music = MenuManager.static_tarefas[Opcao_01.music.number - 1]; }
+            else { Opcao_01.music = MenuManager.static_musicas[Opcao_01.music.number - 1]; }
+            
         }
     }
 
     public void Down()
     {
-        if (Opcao_05.music.number < music_list.Length - 1)
+        int lengeth = 0;
+
+        if (tarefa) { lengeth = MenuManager.static_tarefas.Length; }
+        else { lengeth = MenuManager.static_musicas.Length; }
+
+        if (Opcao_05.music.number < lengeth - 1)
         {
             Opcao_01.music = Opcao_02.music;
             Opcao_02.music = Opcao_03.music;
             Opcao_03.music = Opcao_04.music;
             Opcao_04.music = Opcao_05.music;
 
-            Opcao_05.music = music_list[Opcao_05.music.number + 1];
+            if (tarefa) { Opcao_01.music = MenuManager.static_tarefas[Opcao_05.music.number + 1]; }
+            else { Opcao_01.music = MenuManager.static_musicas[Opcao_05.music.number + 1]; }
         }
     }
 

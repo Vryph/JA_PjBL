@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bateria : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public int[] touch_trigger;
     void Start()
     {
         
@@ -23,17 +23,87 @@ public class Bateria : MonoBehaviour
         {
             Touch[] touch = Input.touches;
 
+            int[] nullID = new int[touch_trigger.Length];
+
+            for (int i = 0; i < touch_trigger.Length; i++)
+            {
+                if (touch_trigger[i] != touch[i].GetHashCode())
+                {
+                    nullID[i] = i;
+                }
+            }
+
+            ////////////////////////////////////////////////////////////////////////
+
+            if(true)
+            {
+                int[] save = new int[touch_trigger.Length - nullID.Length];
+
+                int o = 0;
+
+                for (int i = 0; i < touch_trigger.Length; i++)
+                {
+                    if (nullID[i] == i)
+                    {
+                        save[o] = touch_trigger[i];
+                    }
+                    o++;
+                }
+
+                touch_trigger = save;
+            }
+            
+
+            if (touch.Length != touch_trigger.Length)
+            {
+                int[] save = new int[touch_trigger.Length];
+                touch_trigger = new int[touch.Length];
+
+                if (save != null)
+                {
+                    for (int i = 0; i < save.Length; i++)
+                    {
+                        touch_trigger[i] = save[i];
+                    }
+                }
+            }
+
+            if(true)
+            {
+                int[] save = new int[touch.Length];
+
+                for (int i = 0; i < touch.Length; i++)
+                {
+                    int tentativas = 0;
+                    for (int o = 0; o < touch_trigger.Length; o++)
+                    {
+                        if (touch[i].GetHashCode() == touch_trigger[o])
+                        {
+                            save[i] = touch_trigger[o];
+                            tentativas++;
+                        }
+                    }
+                }
+
+                touch_trigger = save;
+            }
+            
+            ////////////////////////////////////////////////////////////////////////
+
             Ray ray;
 
             for (int i = 0; i < touch.Length; i++)
             {
-                ray = Camera.main.ScreenPointToRay(touch[i].position);
-
-                if (Physics.Raycast(ray.origin, ray.direction * 100, out RaycastHit hit))
+                if (touch.GetHashCode() != touch_trigger[i])
                 {
-                    if (hit.transform.GetComponent<Game_Buttons>() != null)
+                    ray = Camera.main.ScreenPointToRay(touch[i].position);
+
+                    if (Physics.Raycast(ray.origin, ray.direction * 100, out RaycastHit hit))
                     {
-                        hit.transform.gameObject.GetComponent<Game_Buttons>().CLick();
+                        if (hit.transform.GetComponent<Game_Buttons>() != null)
+                        {
+                            hit.transform.gameObject.GetComponent<Game_Buttons>().CLick();
+                        }
                     }
                 }
             }
