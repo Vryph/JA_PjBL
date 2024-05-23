@@ -98,3 +98,39 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocity: 6
+  time:
+    type: 0
+    notes:
+    - note: 0
+      beat: 1
+      special: 0
+      active: 1
+    - note: 0
+      beat: 1
+      special: 0
+      active: 1
+    - note: 0
+      beat: 1
+      special: 0
+      active: 1
+    - note: 0
+      beat: 1
+      special: 0
+      active: 1
+    - note: 0
+      beat: 1
+      special: 0
+      active: 1
+    - note: 0
+      beat: 1
+      special: 0
+      active: 1
+    - note: 0
+      beat: 1
+      special: 0
+      active: 1
+    time: 0
+    spawned: 0
+    complet: 0
+    fail: 0
+  error_note: {fileID: 3410832944318796232, guid: d987aa83ce25d864691c18fc6fede14b, type: 3}

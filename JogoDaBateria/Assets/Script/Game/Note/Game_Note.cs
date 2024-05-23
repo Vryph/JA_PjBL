@@ -5,10 +5,13 @@ using UnityEngine;
 public class Game_Note : MonoBehaviour
 {
     [SerializeField] private float velocity; public float GetVelocity() { return velocity; } public void SetVelocity(float value) { velocity = value; }
-    [SerializeField] private Times time;
+    [SerializeField] public Times time = null;
+
+    [SerializeField] private GameObject error_note;
+    [SerializeField] private float error_time;
     void Start()
     {
-        
+        error_time = Time.time + 5f;
     }
 
     // Update is called once per frame
@@ -21,10 +24,23 @@ public class Game_Note : MonoBehaviour
 
         transform.Translate(real_velocity);
 
-        if(time.complet || time.fail)
+        if(error_note != null)
         {
-            Destroy(gameObject);
+            if(time.complet || time.fail)
+            {
+                GameObject new_note = Instantiate(error_note, transform.position,transform.rotation);
+                new WaitForFixedUpdate();
+                Destroy(gameObject);
+            }
         }
+        else
+        {
+            if(error_time <= Time.time)
+            {
+                Destroy(gameObject);
+            }
+        }
+
     }
 
     public void SetTime(Times time){ this.time = time; }

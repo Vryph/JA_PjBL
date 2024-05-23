@@ -13,6 +13,7 @@ public class Game_System : MonoBehaviour
     [SerializeField] private int this_time = 0;
     [SerializeField] private Times time_in = null;
     [SerializeField] private Game_Configuration configuration;
+    [SerializeField] private UnityEngine.UI.Text text_score;
 
     private void Awake()
     {
@@ -138,6 +139,8 @@ public class Game_System : MonoBehaviour
                 configuration.audio_source.Play(); music_paused = false;
             }
         }
+
+        text_score.text = score.ToString();
     }
 
     public bool CheckGhost(ref Times time)

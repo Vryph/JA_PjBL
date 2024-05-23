@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3410832944318796230}
   - component: {fileID: -2297170493250859285}
   m_Layer: 0
-  m_Name: Note_Empty
+  m_Name: Note_Error
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 3410832944318796232}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
+  m_LocalScale: {x: 0.45023403, y: 0.45023403, z: 2.2511702}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: -1554282985
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 64ba5ffec2abb3a48b568ebc170addc6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a850eade3c326904a91d68aa6e3d39b7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -100,37 +100,9 @@ MonoBehaviour:
   velocity: 6
   time:
     type: 0
-    notes:
-    - note: 0
-      beat: 1
-      special: 0
-      active: 1
-    - note: 0
-      beat: 1
-      special: 0
-      active: 1
-    - note: 0
-      beat: 1
-      special: 0
-      active: 1
-    - note: 0
-      beat: 1
-      special: 0
-      active: 1
-    - note: 0
-      beat: 1
-      special: 0
-      active: 1
-    - note: 0
-      beat: 1
-      special: 0
-      active: 1
-    - note: 0
-      beat: 1
-      special: 0
-      active: 1
+    notes: []
     time: 0
     spawned: 0
     complet: 0
     fail: 0
-  error_note: {fileID: 3410832944318796232, guid: d987aa83ce25d864691c18fc6fede14b, type: 3}
+  error_note: {fileID: 0}
