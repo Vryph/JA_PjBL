@@ -26,9 +26,13 @@ public class Game_Note : MonoBehaviour
 
         if(error_note != null)
         {
-            if(time.complet || time.fail)
+            if(time.complet)
             {
-                GameObject new_note = Instantiate(error_note, transform.position,transform.rotation);
+                Destroy(gameObject);
+            }
+            else if(time.fail)
+            {
+                GameObject new_note = Instantiate(error_note, transform.position, transform.rotation);
                 new WaitForFixedUpdate();
                 Destroy(gameObject);
             }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -14,6 +15,7 @@ public class Game_System : MonoBehaviour
     [SerializeField] private Times time_in = null;
     [SerializeField] private Game_Configuration configuration;
     [SerializeField] private UnityEngine.UI.Text text_score;
+    [SerializeField] public Sinal sinal;
 
     private void Awake()
     {
@@ -33,6 +35,7 @@ public class Game_System : MonoBehaviour
 
         for (int o = 0; o < configuration.musica.times[0].notes.Length; o++)
         {
+            configuration.musica.times[0].game_system = this;
             configuration.musica.times[0].notes[o].time = configuration.musica.times[0];
         }
 
@@ -45,10 +48,12 @@ public class Game_System : MonoBehaviour
         for (int i = 1; i < configuration.musica.times.Count; i++)
         {
             thisTime = configuration.musica.times[i];
+            thisTime.game_system = this;
 
             if (thisTime.type == Times.metronomo_type.time)
             {
-                last_time = last_time + configuration.musica.metronomo; thisTime.time = last_time;
+                last_time = last_time + configuration.musica.metronomo;
+                thisTime.time = last_time;
             }
             else if(configuration.musica.times[i].type == Times.metronomo_type.conter_time)
             {
@@ -61,6 +66,11 @@ public class Game_System : MonoBehaviour
             }
 
             ContinuousNote(ref thisTime, ref Continuous, ref ContinuousNoteName, i);
+
+            if(i == configuration.musica.times.Count-1)
+            {
+                configuration.game_end += last_time;
+            }
         }
 
         configuration.audio_source.clip = configuration.musica.soundTrack;
@@ -107,10 +117,15 @@ public class Game_System : MonoBehaviour
     private void LateUpdate()
     {
         Spawn_Check();
-        Sinal.Reset();
     }
     void Update()
     {
+
+        if(configuration.game_end < Time.time)
+        {
+            MenuManager.ChangeMenu("JogoLivre");
+        }
+
         configuration.game_Time = Time.time;
         CheckTime();
 
@@ -234,7 +249,7 @@ public class Game_System : MonoBehaviour
 
                     try
                     {
-                        if (Sinal.Check_Note(time_in.notes[i].note))
+                        if (sinal.Check_Note(time_in.notes[i].note))
                         {
                             if (!time_in.notes[i].active) { time_in.notes[i].active = true; }
                         }
@@ -320,9 +335,7 @@ public class Game_System : MonoBehaviour
                 }
                 else
                 {
-                    new WaitForSeconds(2f);
-
-                    MenuManager.ChangeMenu("JogoLivre");
+                    //MenuManager.ChangeMenu("JogoLivre");
                 }
             }
         }
@@ -354,11 +367,13 @@ public class Game_System : MonoBehaviour
 
                     for (int o = 0; o < music_time.notes.Length; o++)
                     {
+                        sinal.Reset();
                         Spawn(music_time.notes[o]);
                     }
                 }
             }
         }
+        
     }//Verifica se tem que spawnar alguma nota no momento que é checado.
     
     public void Spawn(Note spawnNote)
@@ -417,6 +432,7 @@ public class Game_System : MonoBehaviour
 public class Game_Configuration
 {
     public float game_Time = 0;
+    public float game_end = 0;
     public float margem = 0;
     public AudioSource audio_source = null;
     public int get_Points = 0;
@@ -434,16 +450,17 @@ public static class Game_Music
     public static Musica Get_Musica() {  return musica; }
 }
 
-public static class Sinal
+[System.Serializable]
+public class Sinal
 {
-    public static bool Chimbal, Caixa, TomUm, TomDois, Surdo, Bumbo, Prato;
-    public static bool Score_Sinal = false;
+    public bool Chimbal, Caixa, TomUm, TomDois, Surdo, Bumbo, Prato;
+    public bool Score_Sinal = false;
 
-    public static void Reset()
+    public void Reset()
     {
         Chimbal = false; Caixa = false; TomUm = false; TomDois = false; Surdo = false; Bumbo = false; Prato = false;
     }
-    public static bool Check_Note(Note.music_note note)
+    public bool Check_Note(Note.music_note note)
     {
         if (note == Note.music_note.Empty) { return true; }
 

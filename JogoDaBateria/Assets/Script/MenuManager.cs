@@ -27,6 +27,8 @@ public class MenuManager : MonoBehaviour
     public bool DeBug = true;
     public bool Change_DeBug = false;
 
+    public bool fechar = false;
+
     [SerializeField] private int MusicProgress = 0 ;
     [SerializeField] private int TarefasProgress = 0;
 
@@ -36,6 +38,14 @@ public class MenuManager : MonoBehaviour
     [SerializeField] private Animator jogoLivre;
     [SerializeField] private Animator musicas;
     [SerializeField] private Animator tarefas;
+
+    public void Start()
+    {
+        if(fechar)
+        {
+            OpenOrCloseMenu();
+        }
+    }
 
     public void Update()
     {

@@ -165,6 +165,7 @@ public class Musica
 [System.Serializable]
 public class Times
 {
+    public Game_System game_system;
     public enum metronomo_type { time , conter_time }
 
     public metronomo_type type;
@@ -193,7 +194,7 @@ public class Times
 
             if (value == check) { complet = true; }
 
-            Sinal.Score_Sinal = true;
+            game_system.sinal.Score_Sinal = true;
         }
     }
 }

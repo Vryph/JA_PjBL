@@ -13,8 +13,11 @@ public class Bateria : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Touch();
-        MouseDown();
+        if (FadeIn.color_a.a == 0)
+        {
+            Touch();
+            MouseDown();
+        }
     }
 
     public void Touch()
@@ -49,7 +52,7 @@ public class Bateria : MonoBehaviour
             {
                 Debug.Log("Chegou em algo.");
 
-                DrawCube(hit.transform.position, 5, UnityEngine.Color.red);
+                //DrawCube(hit.transform.position, 5, UnityEngine.Color.red);
 
                 if (hit.transform.GetComponent<Game_Buttons>() != null)
                 {
@@ -59,7 +62,7 @@ public class Bateria : MonoBehaviour
             }
         }
     }
-    public void DrawCube(Vector3 point, float size, UnityEngine.Color color)
+    /*public void DrawCube(Vector3 point, float size, UnityEngine.Color color)
     {
         Vector3[] points = new Vector3[4];
 
@@ -72,5 +75,5 @@ public class Bateria : MonoBehaviour
         Debug.DrawLine(points[0], points[3], color, 5f);
         Debug.DrawLine(points[2], points[1], color, 5f);
         Debug.DrawLine(points[2], points[3], color, 5f);
-    }
+    }*/
 }

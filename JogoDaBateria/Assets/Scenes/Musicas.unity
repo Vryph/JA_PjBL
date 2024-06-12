@@ -387,6 +387,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3516145742146150562, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3516145742146150589, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
+      propertyPath: m_Color.a
+      value: 0.19607843
+      objectReference: {fileID: 0}
     - target: {fileID: 4742459229281616745, guid: 73fb516f629c9ff498e3cf7e3ae7510b, type: 3}
       propertyPath: m_Name
       value: Menu_Principal_Pronto

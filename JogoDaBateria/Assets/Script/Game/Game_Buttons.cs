@@ -8,6 +8,9 @@ using UnityEngine.UIElements;
 [RequireComponent(typeof(AudioSource))]
 public class Game_Buttons : MonoBehaviour
 {
+    [SerializeField] private Game_System game_system;
+    [SerializeField] private bool emite_sinal = false;
+
     [SerializeField] private Note.music_note note;
     [SerializeField] private AudioClip[] note_sound;
     [SerializeField] private KeyCode key;
@@ -23,9 +26,12 @@ public class Game_Buttons : MonoBehaviour
     }
     void Update()
     {
-        if(Input.GetKeyDown(key))
+        if(FadeIn.color_a.a == 0)
         {
-            CLick();
+            if (Input.GetKeyDown(key))
+            {
+                CLick();
+            }
         }
     }
 
@@ -38,29 +44,51 @@ public class Game_Buttons : MonoBehaviour
     {
         PlayAudio();
         animator.SetTrigger("Clicou");
-
-        switch (note)
+        
+        if(!emite_sinal)
         {
-            case Note.music_note.Chimbal:
-                Sinal.Chimbal = true; break;
-            case Note.music_note.Caixa:
-                Sinal.Caixa = true; break;
-            case Note.music_note.TomUm:
-                Sinal.TomUm = true; break;
-            case Note.music_note.TomDois:
-                Sinal.TomDois = true; break;
-            case Note.music_note.Bumbo:
-                Sinal.Bumbo = true; break;
-            case Note.music_note.Surdo:
-                Sinal.Surdo = true; break;
-            case Note.music_note.Prato:
-                Sinal.Prato = true; break;
+            /*switch (note)
+            {
+                case Note.music_note.Chimbal:
+                    Sinal.Chimbal = true; break;
+                case Note.music_note.Caixa:
+                    Sinal.Caixa = true; break;
+                case Note.music_note.TomUm:
+                    Sinal.TomUm = true; break;
+                case Note.music_note.TomDois:
+                    Sinal.TomDois = true; break;
+                case Note.music_note.Bumbo:
+                    Sinal.Bumbo = true; break;
+                case Note.music_note.Surdo:
+                    Sinal.Surdo = true; break;
+                case Note.music_note.Prato:
+                    Sinal.Prato = true; break;
+            }*/
         }
-    }
+        else
+        {
+            Sinal sinal = game_system.sinal;
 
-    public void OnDrawGizmos()
-    {
-
-
+            switch (note)
+            {
+                case Note.music_note.Chimbal:
+                    sinal.Chimbal = true; break;
+                case Note.music_note.Caixa:
+                    sinal.Caixa = true; break;
+                case Note.music_note.TomUm:
+                    sinal.TomUm = true; break;
+                case Note.music_note.TomDois:
+                    sinal.TomDois = true; break;
+                case Note.music_note.Bumbo:
+                    sinal.Bumbo = true; break;
+                case Note.music_note.Surdo:
+                    sinal.Surdo = true; break;
+                case Note.music_note.Prato:
+                    sinal.Prato = true; break;
+            }
+            
+        }
+        
+       
     }
 }
